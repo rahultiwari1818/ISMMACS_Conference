@@ -1,0 +1,836 @@
+body {
+  background: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+fieldset {
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+
+  /* --------------------------------------------Navbar ----------------------------------- */
+  .custom-navbar {
+  border-bottom: 1px solid #dee2e6;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-navbar .navbar-brand {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.nav-link.custom-link {
+  font-weight: 500;
+  color: #0056b3 !important;
+  transition: color 0.3s, border-bottom 0.3s;
+  position: relative;
+}
+
+.nav-link.custom-link::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: #0056b3;
+  width: 0;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-link.custom-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.custom-link:hover {
+  color: #003366 !important;
+}
+
+
+.hamburger-lines {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 22px;
+  width: 28px;
+}
+.line {
+  background-color: #007bff;
+  height: 3px;
+  border-radius: 2px;
+  width: 100%;
+}
+
+
+/* ----------------------------------------------------- Header ------------------------------------ */
+
+/* Hero Section Styles */
+.hero-section {
+  position: relative;
+  background-image: url('../assets/homepage.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-content h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* About ISMMACS Section Styles */
+.about-ismmacs-section {
+  background-color: #f9f9f9;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.about-ismmacs-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-ismmacs-section h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.about-ismmacs-section p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-ismmacs-section a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.about-ismmacs-section a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------ About Workshop --------------------------------------- */
+
+.about-workshop-content {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fdfdfd;
+  border-left: 4px solid #007bff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.workshop-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.workshop-description {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.workshop-modules li {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-weight: 500;
+}
+
+/* -------------------------------------------------------------------- Conference Theme ------------------------------------------------- */
+
+.theme-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  background-color: #f4f7fb;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.theme-column {
+  flex: 1 1 100%;
+  min-width: 300px;
+}
+
+@media (min-width: 768px) {
+  .theme-column {
+    flex: 1 1 48%;
+  }
+}
+
+.theme-column h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1a237e;
+}
+
+.theme-column p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.theme-column ul {
+  padding-left: 20px;
+  color: #444;
+}
+
+.theme-column li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+
+
+/* ------------------------------------------------------------- Important Dates --------------------------------------------- */
+
+.important-dates-content {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fdfdfd;
+  border-left: 4px solid #e67e22;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.dates-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #d35400;
+}
+
+.dates-list .list-group-item {
+  background-color: #f8f9fa;
+  color: #2c3e50;
+  font-size: 1.05rem;
+  font-weight: 500;
+  border-left: 3px solid #ffa726;
+  margin-bottom: 8px;
+}
+
+.event-name {
+  font-weight: 600;
+}
+
+.event-date {
+  font-style: italic;
+  color: #555;
+}
+
+/* ------------------------------------------------------------------ Intended Audience ----------------------------------------------- */
+
+#audience-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #212529;
+}
+
+#audience-desc {
+  text-align: center;
+  color: #555;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.audience-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.audience-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.audience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.audience-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.audience-card h3 {
+  font-size: 1.2rem;
+  color: #1b1b1b;
+  margin-bottom: 0.5rem;
+}
+
+.audience-card p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+
+
+/* ------------------------------------------------------------------- Workshop Schedule --------------------------------------------------- */
+
+.schedule-card {
+  background: #f9f9ff;
+  border-left: 5px solid #007bff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.schedule-card:hover {
+  transform: scale(1.02);
+}
+
+.schedule-day {
+  font-weight: 600;
+  color: #0056b3;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.schedule-card .list-group-item {
+  background-color: transparent;
+  border: none;
+  padding: 10px 0;
+  color: #333;
+}
+
+
+
+
+/* ------------------------- committee card ---------------------------------------------- */
+  .member-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+  }
+
+  .custom-card {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+
+  .custom-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .custom-card h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .custom-card p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-left: 5px solid #007bff;
+    padding-left: 10px;
+  }
+
+  /* ----------------------------------- Speaker ------------------------------------------------------------------ */
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  padding: 3rem 2rem;
+  background: #f8fafc;
+}
+
+.speaker-card {
+  background: linear-gradient(to bottom right, #ffffff, #f1f5f9);
+  border-radius: 18px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.06);
+}
+
+.speaker-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 2px solid #cbd5e1;
+}
+
+.speaker-body {
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  flex-grow: 1;
+}
+
+.speaker-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.speaker-affiliation {
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+.speaker-interests {
+  font-size: 0.85rem;
+  color: #334155;
+  list-style: circle;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.speaker-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.3rem 0.7rem;
+  border-radius: 9999px;
+  width: fit-content;
+  letter-spacing: 0.5px;
+  margin-top: auto;
+}
+
+.tag-fixed {
+  background-color: #10b981;
+  color: white;
+}
+
+.tag-tentative {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.hidden-interest {
+  display: none;
+}
+
+.show-more {
+  background: none;
+  border: none;
+  color: white;
+  background-color: #3B82F6;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.3rem 0;
+  transition: color 0.3s ease;
+}
+
+.show-more:hover {
+  color: #1d4ed8;
+}
+
+@media (max-width: 500px) {
+  .speaker-image {
+    height: 180px;
+  }
+
+  .speaker-body {
+    padding: 1rem;
+  }
+}
+
+
+/* -------------------------------- Registration CSS ---------------------------------------------- */
+
+
+
+.form-container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1e293b;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.registration-form .form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.2s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pay-btn {
+  background: #f59e0b;
+  color: white;
+}
+
+.pay-btn:hover {
+  background: #d97706;
+}
+
+.submit-btn {
+  background: #10b981;
+  color: white;
+}
+
+.submit-btn:hover {
+  background: #059669;
+}
+
+
+.error-message {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  display: none;
+}
+
+.input-error {
+  border-color: red !important;
+}
+
+
+/*  ------------------------------------------------- Reg Data  CSS -------------------------- */
+.section {
+      margin-bottom: 40px;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1e3a8a;
+      margin-bottom: 20px;
+      border-left: 6px solid #3b82f6;
+      padding-left: 12px;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+    }
+
+    table.custom-table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    table.custom-table thead {
+      background-color: #3b82f6;
+      color: white;
+    }
+
+    table.custom-table th, table.custom-table td {
+      padding: 12px 16px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+
+    table.custom-table tr:hover {
+      background-color: #f1f5f9;
+    }
+
+    .note-list {
+      background: #eef2ff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .note-list li {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .sub-heading {
+      font-size: 18px;
+      margin-top: 10px;
+      font-weight: 500;
+      color: #1e40af;
+    }
+
+    .toggle-btn {
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px 0;
+    }
+
+    .toggle-btn:hover {
+      background-color: #2563eb;
+    }
+
+    .hidden {
+      display: none;
+    }
+/* ------------------------------------------------- About City -------------------------------------------------- */
+
+.about-city-section {
+  background-color: #f4f7fa;
+  padding: 4rem 1.5rem;
+}
+
+.about-city-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.about-city-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.about-city-text {
+  flex: 1 1 55%;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.about-city-text ul {
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.about-city-text li {
+  margin-bottom: 0.5rem;
+}
+
+.about-city-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.about-city-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Tourism Button */
+.tourism-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background-color: #007B5E;
+  color: #fff;
+  padding: 0.7rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.tourism-button:hover {
+  background-color: #005f46;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-city-grid {
+    flex-direction: column;
+  }
+
+  .about-city-text,
+  .about-city-image {
+    flex: 1 1 100%;
+  }
+}
+
+
+
+    /* ------------------------------------ Sponosrs ----------------------------------------------------- */
+
+    .sponsor-card {
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #ffffff;
+}
+
+.sponsor-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 123, 255, 0.1);
+  border-color: #007bff;
+}
+
+.sponsor-img {
+  max-height: 100px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+
+/* --------------------------------------------------------- Footer ------------------------------------------------ */
+/* Contact Box Styling */
+.contact-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.map-section {
+  flex: 1 1 100%;
+  min-height: 300px;
+}
+
+.contact-details {
+  flex: 1 1 100%;
+  padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+  .map-section,
+  .contact-details {
+    flex: 1 1 48%;
+  }
+}
+
+.contact-details h3 {
+  color: #1a237e;
+  margin-bottom: 15px;
+}
+
+.contact-details p {
+  margin: 10px 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.contact-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styling */
+.footer-custom {
+  background-color: #f4f4f4;
+  padding: 15px 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.footer-custom a {
+  color: #0d47a1;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-custom a:hover {
+  text-decoration: underline;
+}

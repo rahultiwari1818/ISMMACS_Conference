@@ -1,0 +1,223 @@
+{
+  "Honorary Chairman": [
+    {
+      "name": "K S Dasgupta",
+      "affiliation": "Director, DA-IICT Gandhinagar",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    }
+  ],
+  "Advisory Committee": [
+    {
+      "name": "R P Aggarwal",
+      "affiliation": "Professor, Texas (A&M) University, USA",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Abdon Atangana",
+      "affiliation": "Professor, Institute for Groundwater Studies, UFS",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "D Bahuguna",
+      "affiliation": "Professor, IIT Kanpur",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Peeyush Chandra",
+      "affiliation": "Professor (Retd.), IIT Kanpur",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "G D Veerappa Gowda",
+      "affiliation": "Professor, TIFR – CAM Bangalore",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "B V Rathish Kumar",
+      "affiliation": "Professor, IIT Kanpur",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "A K Nandakumaran",
+      "affiliation": "Professor, IISc Bangalore",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "V Sree Hari Rao",
+      "affiliation": "Director & Principal Research Scientist, FSRT, Hyderabad",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Narottam Sahoo",
+      "affiliation": "Advisor, DST, Gujarat (Yet to confirm)",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Vishnu Dutt Sharma",
+      "affiliation": "Emeritus Fellow, IIT Bombay",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "S Sundar",
+      "affiliation": "Director, NIT Mizoram",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    }
+  ],
+  "Program Committee": [
+    {
+      "name": "Syed Abbas",
+      "affiliation": "Associate Professor, IIT Mandi",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Shruti Dubey",
+      "affiliation": "Professor, IIT Madras",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Ritesh Kumar Dubey",
+      "affiliation": "Associate Professor, SRM Chennai",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Manish Kumar Gupta",
+      "affiliation": "Professor, DA-IICT Gandhinagar",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Ahlad Kumar",
+      "affiliation": "Assistant Professor, DA-IICT Gandhinagar",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "B V Rathish Kumar",
+      "affiliation": "Professor, IIT Kanpur",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Muslim Malik",
+      "affiliation": "Associate Professor, IIT Mandi",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Jaideep Mulherkar",
+      "affiliation": "Associate Professor, DA-IICT Gandhinagar",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Bipin Porwal",
+      "affiliation": "Scientist - E, Indian Institute of Tropical Meteorology, Pune",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Manas Ranjan Sahoo",
+      "affiliation": "Reader - F, NISER Bhubaneswar",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Harish Sahu",
+      "affiliation": "Scientist, DRDO, New Delhi",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Madhu Kant Sharma",
+      "affiliation": "Assistant Professor, DA-IICT Gandhinagar (Chair)",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    },
+    {
+      "name": "Prashant Srivastava",
+      "affiliation": "Associate Professor, IIT Patna",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link":"#"
+    }
+  ],
+
+  "Local Organizing Committee": [
+    {
+      "name": "Manish Kumar Gupta",
+      "affiliation": "",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#"
+    },
+    {
+      "name": "Ahlad Kumar",
+      "affiliation": "",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#"
+    },
+    {
+      "name": "Jaideep Mulherkar",
+      "affiliation": "",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#"
+    },
+    {
+      "name": "Rahul Mutthu",
+      "affiliation": "",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#"
+    },
+    {
+      "name": "Nabin Kumar Sahu",
+      "affiliation": "",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#"
+    },
+    {
+      "name": "Madhu Kant Sharma (Chair)",
+      "affiliation": "",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#"
+    }
+  ],
+  "Student Volunteers": [
+    {
+      "name": "Biswajit Prusty (data organiser)",
+      "affiliation": "",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#"
+    },
+    {
+      "name": "Dhiraj Golhar (content creater)",
+      "affiliation": "",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#"
+    },
+    {
+      "name": "Harsh Metkel (Logo Developer)",
+      "affiliation": "",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#"
+    },
+    {
+      "name": "Rahul Tiwari (Website Developer)",
+      "affiliation": "DAU",
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "https://portfolio-rahul-tiwari.vercel.app/"
+    }
+  ]
+}

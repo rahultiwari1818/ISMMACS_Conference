@@ -1,0 +1,38 @@
+{
+  "highlights": {
+    "title": "Highlights of the Conference",
+    "points": [
+      "Expert-led keynote presentations from renowned speakers in the field.",
+      "A diverse range of sessions covering theoretical aspects, practical applications, and computational techniques.",
+      "Networking opportunities to connect with fellow researchers and industry professionals.",
+      "A showcase of cutting-edge research and innovative solutions in scientific computing."
+    ],
+    "summary": "Whether you're a researcher, educator, or industry expert, this conference is an invaluable opportunity to gain insights and contribute to the vibrant community of mathematicians and scientists dedicated to advancing the understanding of differential equations."
+  },
+  "conferenceThemes": {
+    "title": "Conference Themes",
+    "topics": [
+      "Analytical and Numerical Methods for ODEs and PDEs",
+      "Mathematical Modeling and Computer Simulations",
+      "Computational Fluid Dynamics",
+      "Controllability, Observability, and Stability of Differential Equations",
+      "Scientific Machine Learning and Applications",
+      "Fractional Differential Equations",
+      "Delay Differential Equations",
+      "Special Functions and Their Applications",
+      "Dynamical Systems and Chaos"
+    ]
+  },
+  "workshopTheme": {
+    "title": "Workshop Theme",
+    "description": "Mathematical modeling and dynamical systems have become essential tools for understanding complex phenomena across disciplines such as physics, biology, economics, and engineering. With the growth of computational techniques and increased data availability, the synergy between modeling, simulation, and real-world problem-solving has deepened.\n\nThis workshop is designed to introduce young researchers, doctoral students, and early-career faculty to the foundational and computational aspects of dynamical systems. The aim is to equip participants with knowledge of current methodologies, emerging trends, and research opportunities.",
+    "topics": [
+      "Ordinary and Partial Differential Equations in Modeling",
+      "Nonlinear Dynamical Systems",
+      "Chaos Theory and Bifurcation",
+      "Fractional Systems",
+      "Numerical Solvers and Simulations",
+      "Applications in Biological Systems, Climate Models, and Control Theory"
+    ]
+  }
+}

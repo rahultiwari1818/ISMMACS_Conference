@@ -1,0 +1,21 @@
+{
+  "title": "Target Audience",
+  "description": "This event is intended for:",
+  "audience": [
+    {
+      "title": "Postgraduate & Ph.D. Students",
+      "image": "./assets/audience/Student.png",
+      "description": "In mathematics, physics, engineering, and computational sciences interested in modeling and simulation."
+    },
+    {
+      "title": "Early-career Researchers & Faculty",
+      "image": "./assets/audience/Professor.png",
+      "description": "Faculty members from academic institutions looking to enhance their research and teaching methods."
+    },
+    {
+      "title": "Industry Professionals",
+      "image": "./assets/audience/Professional.png",
+      "description": "Data scientists and professionals interested in applying computational methods and modeling techniques."
+    }
+  ]
+}

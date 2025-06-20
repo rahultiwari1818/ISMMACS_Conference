@@ -1,0 +1,168 @@
+{
+  "speakers": [
+    {
+      "name": "Abdon Atangana",
+      "affiliation": "Professor, Institute for Groundwater Studies (IGS), University of The Free State, Bloemfontein, South Africa.",
+      "researchInterests": [
+        "Methods and application of nonlinear equations",
+        "Fractional calculus and its applications to real-world problems",
+        "Application of partial, ordinary, and fractional differential equations to groundwater problems",
+        "Perturbation and asymptotic methods",
+        "Iteration methods for differential equations",
+        "A numerical method for partial differential equations",
+        "Numerical methods for ordinary differential equations",
+        "Analytical methods for partial differential equation",
+        "Analytical methods for ordinary differential equation",
+        "Integral transforms",
+        "Groundwater flow models",
+        "Groundwater transport models"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Shruti Dubey",
+      "affiliation": "Professor, Indian Institute of Technology Madras, Chennai, India.",
+      "researchInterests": [
+        "Mathematical study of ferromagnetic systems",
+        "Nonlinear analysis for fractional functional differential equations"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Ritesh Kumar Dubey",
+      "affiliation": "Associate Professor, Research Institute, SRM Institute of Science and Technology (formerly SRM University), Chennai, India.",
+      "researchInterests": [
+        "Numerical Analysis and Scientific Computing",
+        "Deep learning in computer vision and numerical PDEs",
+        "PDE's models, analysis and simulation of data-rich phenomena in financial, social & environmental studies"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "tentative"
+    },
+    {
+      "name": "Ahlad Kumar",
+      "affiliation": "Assistant Professor, Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar, India",
+      "researchInterests": [
+        "Deep Learning",
+        "Machine Learning",
+        "Reinforcement Learning",
+        "Image Processing"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "B V Rathish Kumar",
+      "affiliation": "Professor, Indian Institute of Technology Kanpur, Kanpur, India.",
+      "researchInterests": [
+        "Parallel Computing",
+        "Numerical Methods For PDEs",
+        "Computational Fluid",
+        "Dynamics, Finite Element Analysis",
+        "Computational Biomechanics",
+        "Porous Media",
+        "Image Processing"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "tentative"
+    },
+    {
+      "name": "Anuj Mubayi",
+      "affiliation": "Principal Scientist (Infectious Disease Forecasting Lead), The Public Health Company, USA.",
+      "researchInterests": [
+        "The impact of social behavioral changes on disease evolution",
+        "The role of environmental and social structures on the dynamics of infection",
+        "The identification of mechanisms that facilitate the spread of diseases across levels of organization over different scales",
+        "The impact of Neglected Tropical Diseases (NTDs) on health disparities"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Jaideep Mulherkar",
+      "affiliation": "Associate Professor, Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar, India",
+      "researchInterests": [
+        "Quantum Computation and Information",
+        "Quantum Spin Systems",
+        "Mathematical Finance"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "tentative"
+    },
+    {
+      "name": "Bipin Porwal",
+      "affiliation": "Scientist – E, Indian Institute of Tropical Meteorology, Pune, India",
+      "researchInterests": [
+        "Numerical Analysis and Scientific Computing",
+        "Deep learning in computer vision and numerical PDEs",
+        "PDE's models, analysis and simulation of data-rich phenomena in financial, social & environmental studies"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "V Raghavendra",
+      "affiliation": "IC and SR, IIT Madras; Distinguished Professor, IIT Tirupati; Professor(Retd.), IIT Kanpur.",
+      "researchInterests": [
+        "Inverse Scattering theory and Scientific computing",
+        "Fixed Point and Approximation Theory",
+        "Differential equations"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Harish Sahu",
+      "affiliation": "Scientist at DRDO, New Delhi, India",
+      "researchInterests": [
+        "Quantum computing",
+        "Quantum key distribution",
+        "Quantum cryptography"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "tentative"
+    },
+    {
+      "name": "Mohammad Sajid",
+      "affiliation": "Professor, Qassim University, Qassim, Saudi Arabia",
+      "researchInterests": [
+        "Dynamical systems",
+        "Chaos Theory",
+        "Bifurcation",
+        "Fractals",
+        "Fixed Points",
+        "Iterative Process",
+        "Complex Analysis",
+        "Statistical Analysis"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "tentative"
+    },
+    {
+      "name": "Madhukant Sharma",
+      "affiliation": "Assistant Professor, DA-IICT, Gandhinagar, India",
+      "researchInterests": [
+        "Fractional Differential Equations",
+        "Optimization",
+        "Signal Processing",
+        "Numerical Methods for PDEs"
+      ],
+      "image": "./assets/committee_images/putin.jpeg",
+      "link": "#",
+      "speakerType": "fixed"
+    }
+  ]
+}

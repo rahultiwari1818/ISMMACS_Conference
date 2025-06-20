@@ -1,0 +1,44 @@
+{
+  "schedule": [
+    {
+      "day": "Day 1 - August 2, 2024",
+      "sessions": [
+        { "time": "09:00 AM - 10:00 AM", "topic": "Inauguration & Keynote Session" },
+        { "time": "10:15 AM - 12:00 PM", "topic": "Module 1: Introduction to Differential Equations" },
+        { "time": "01:00 PM - 03:00 PM", "topic": "Hands-on: Solving ODEs using Python" }
+      ]
+    },
+    {
+      "day": "Day 2 - August 3, 2024",
+      "sessions": [
+        { "time": "09:00 AM - 11:00 AM", "topic": "Fractional Differential Equations" },
+        { "time": "11:30 AM - 01:00 PM", "topic": "Applications in Epidemiology" },
+        { "time": "02:00 PM - 04:00 PM", "topic": "Hands-on: Real-world Modeling" }
+      ]
+    },
+    {
+      "day": "Day 3 - August 4, 2024",
+      "sessions": [
+        { "time": "09:00 AM - 11:00 AM", "topic": "Quantum Computing Basics" },
+        { "time": "11:30 AM - 01:00 PM", "topic": "Quantum Algorithms for DEs" },
+        { "time": "02:00 PM - 03:30 PM", "topic": "Hands-on: Quantum Simulators" }
+      ]
+    },
+    {
+      "day": "Day 4 - August 5, 2024",
+      "sessions": [
+        { "time": "09:30 AM - 11:00 AM", "topic": "ML for Solving PDEs" },
+        { "time": "11:15 AM - 12:45 PM", "topic": "Neural Networks for DEs" },
+        { "time": "02:00 PM - 03:30 PM", "topic": "Hands-on: ML in SciPy & TensorFlow" }
+      ]
+    },
+    {
+      "day": "Day 5 - August 6, 2024",
+      "sessions": [
+        { "time": "09:00 AM - 10:30 AM", "topic": "Panel Discussion" },
+        { "time": "11:00 AM - 12:00 PM", "topic": "Future Trends in Scientific Computing" },
+        { "time": "12:30 PM - 01:00 PM", "topic": "Valedictory & Feedback" }
+      ]
+    }
+  ]
+}
