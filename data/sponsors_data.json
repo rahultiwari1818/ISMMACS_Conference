@@ -1,13 +1,10 @@
 {
   "data": [
     {
-      "image": "./assets/sponsors_logo/dst_logo.png",
-      "link": "#"
+      "image": "./assets/sponsors_logo/dau.png",
+      "link": "https://www.daiict.ac.in/"
     },
-    {
-      "image": "./assets/sponsors_logo/gujcost_logo.png",
-      "link": "#"
-    },
+
     {
       "image": "./assets/sponsors_logo/ims_logo.png",
       "link": "#"

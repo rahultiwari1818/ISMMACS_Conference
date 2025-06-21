@@ -13,7 +13,7 @@ $(document).ready(function () {
             /\n/g,
             "<br><br>"
           )}</p>
-          <h4 class="text-dark mb-3">Workshop Modules:</h4>
+          <h4 class="text-dark mb-3"></h4>
           <ul class="workshop-modules list-group list-group-flush">
             ${data.modules
               .map((module) => `<li class="list-group-item">${module}</li>`)

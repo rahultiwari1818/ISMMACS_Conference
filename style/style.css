@@ -1,23 +1,22 @@
 body {
   background: #f9f9f9;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   margin: 0;
 }
 fieldset {
-    border: 1px solid #fff;
-    padding: 10px;
-    margin-top: 10px;
-  }
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-top: 10px;
+}
 
-
-  /* --------------------------------------------Navbar ----------------------------------- */
-  .custom-navbar {
+/* --------------------------------------------Navbar ----------------------------------- */
+.custom-navbar {
   border-bottom: 1px solid #dee2e6;
   transition: all 0.3s ease-in-out;
 }
 
 .custom-navbar .navbar-brand {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
 .nav-link.custom-link {
@@ -28,7 +27,7 @@ fieldset {
 }
 
 .nav-link.custom-link::after {
-  content: '';
+  content: "";
   display: block;
   height: 2px;
   background: #0056b3;
@@ -47,7 +46,6 @@ fieldset {
   color: #003366 !important;
 }
 
-
 .hamburger-lines {
   display: flex;
   flex-direction: column;
@@ -62,13 +60,12 @@ fieldset {
   width: 100%;
 }
 
-
 /* ----------------------------------------------------- Header ------------------------------------ */
 
 /* Hero Section Styles */
 .hero-section {
   position: relative;
-  background-image: url('../assets/homepage.jpg'); /* Replace with your actual image path */
+  background-image: url("../assets/homepage.jpg"); /* Replace with your actual image path */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -140,6 +137,33 @@ fieldset {
   text-decoration: underline;
 }
 
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.hero-btn {
+  padding: 0.8rem 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #0056b3; /* Blue */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.4s ease, transform 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #ffc107; /* Yellow on hover */
+  color: #000; /* Black text on yellow */
+  transform: translateY(-3px);
+}
+
 /* ------------------------------------------------ About Workshop --------------------------------------- */
 
 .about-workshop-content {
@@ -177,7 +201,7 @@ fieldset {
   padding: 30px;
   background-color: #f4f7fb;
   border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
 
 .theme-column {
@@ -214,8 +238,6 @@ fieldset {
   margin-bottom: 8px;
   line-height: 1.5;
 }
-
-
 
 /* ------------------------------------------------------------- Important Dates --------------------------------------------- */
 
@@ -308,8 +330,6 @@ fieldset {
   color: #444;
 }
 
-
-
 /* ------------------------------------------------------------------- Workshop Schedule --------------------------------------------------- */
 
 .schedule-card {
@@ -338,51 +358,48 @@ fieldset {
   color: #333;
 }
 
-
-
-
 /* ------------------------- committee card ---------------------------------------------- */
-  .member-img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 2px solid #007bff;
-  }
+.member-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+}
 
-  .custom-card {
-    background: #f8f9fa;
-    border: 1px solid #dee2e6;
-    border-radius: 12px;
-    padding: 20px;
-    margin: 10px;
-    transition: transform 0.2s ease;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-  }
+.custom-card {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
 
-  .custom-card:hover {
-    transform: translateY(-5px);
-  }
+.custom-card:hover {
+  transform: translateY(-5px);
+}
 
-  .custom-card h5 {
-    font-size: 1.1rem;
-    font-weight: 600;
-  }
+.custom-card h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
 
-  .custom-card p {
-    font-size: 0.95rem;
-    color: #555;
-  }
+.custom-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
 
-  .section-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 15px;
-    border-left: 5px solid #007bff;
-    padding-left: 10px;
-  }
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  border-left: 5px solid #007bff;
+  padding-left: 10px;
+}
 
-  /* ----------------------------------- Speaker ------------------------------------------------------------------ */
+/* ----------------------------------- Speaker ------------------------------------------------------------------ */
 .speaker-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -471,7 +488,7 @@ fieldset {
   background: none;
   border: none;
   color: white;
-  background-color: #3B82F6;
+  background-color: #3b82f6;
   cursor: pointer;
   font-size: 0.85rem;
   padding: 0.3rem 0;
@@ -492,10 +509,7 @@ fieldset {
   }
 }
 
-
 /* -------------------------------- Registration CSS ---------------------------------------------- */
-
-
 
 .form-container {
   max-width: 800px;
@@ -571,7 +585,6 @@ fieldset {
   background: #059669;
 }
 
-
 .error-message {
   color: red;
   font-size: 0.85rem;
@@ -583,85 +596,85 @@ fieldset {
   border-color: red !important;
 }
 
-
 /*  ------------------------------------------------- Reg Data  CSS -------------------------- */
 .section {
-      margin-bottom: 40px;
-    }
+  margin-bottom: 40px;
+}
 
-    .title {
-      font-size: 24px;
-      font-weight: 600;
-      color: #1e3a8a;
-      margin-bottom: 20px;
-      border-left: 6px solid #3b82f6;
-      padding-left: 12px;
-    }
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+  border-left: 6px solid #3b82f6;
+  padding-left: 12px;
+}
 
-    .table-wrapper {
-      overflow-x: auto;
-    }
+.table-wrapper {
+  overflow-x: auto;
+}
 
-    table.custom-table {
-      width: 100%;
-      border-collapse: collapse;
-      background-color: #ffffff;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-      border-radius: 8px;
-      overflow: hidden;
-    }
+table.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  overflow: hidden;
+}
 
-    table.custom-table thead {
-      background-color: #3b82f6;
-      color: white;
-    }
+table.custom-table thead {
+  background-color: #3b82f6;
+  color: white;
+}
 
-    table.custom-table th, table.custom-table td {
-      padding: 12px 16px;
-      text-align: center;
-      border-bottom: 1px solid #eee;
-    }
+table.custom-table th,
+table.custom-table td {
+  padding: 12px 16px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
 
-    table.custom-table tr:hover {
-      background-color: #f1f5f9;
-    }
+table.custom-table tr:hover {
+  background-color: #f1f5f9;
+}
 
-    .note-list {
-      background: #eef2ff;
-      padding: 20px;
-      border-radius: 8px;
-    }
+.note-list {
+  background: #eef2ff;
+  padding: 20px;
+  border-radius: 8px;
+}
 
-    .note-list li {
-      margin-bottom: 10px;
-      line-height: 1.6;
-    }
+.note-list li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
 
-    .sub-heading {
-      font-size: 18px;
-      margin-top: 10px;
-      font-weight: 500;
-      color: #1e40af;
-    }
+.sub-heading {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 500;
+  color: #1e40af;
+}
 
-    .toggle-btn {
-      background-color: #3b82f6;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      font-size: 14px;
-      border-radius: 5px;
-      cursor: pointer;
-      margin: 10px 0;
-    }
+.toggle-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
 
-    .toggle-btn:hover {
-      background-color: #2563eb;
-    }
+.toggle-btn:hover {
+  background-color: #2563eb;
+}
 
-    .hidden {
-      display: none;
-    }
+.hidden {
+  display: none;
+}
 /* ------------------------------------------------- About City -------------------------------------------------- */
 
 .about-city-section {
@@ -719,7 +732,7 @@ fieldset {
 .tourism-button {
   display: inline-block;
   margin-top: 1.5rem;
-  background-color: #007B5E;
+  background-color: #007b5e;
   color: #fff;
   padding: 0.7rem 1.4rem;
   font-size: 1rem;
@@ -744,11 +757,9 @@ fieldset {
   }
 }
 
+/* ------------------------------------ Sponosrs ----------------------------------------------------- */
 
-
-    /* ------------------------------------ Sponosrs ----------------------------------------------------- */
-
-    .sponsor-card {
+.sponsor-card {
   border: 2px solid #f0f0f0;
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -766,7 +777,6 @@ fieldset {
   object-fit: contain;
   padding: 10px;
 }
-
 
 /* --------------------------------------------------------- Footer ------------------------------------------------ */
 /* Contact Box Styling */

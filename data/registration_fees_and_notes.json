@@ -3,8 +3,7 @@
     "Category": [
       "Domestic PhD/PDFs",
       "Faculty and others",
-      "Overseas",
-      "SRM Faculty/Students"
+      "Overseas"
     ],
     "Workshop": {
       "Online": {
@@ -41,8 +40,7 @@
         "Faculty and others": "INR 5500",
         "Overseas": "USD 225"
       }
-    },
-    "SRM Faculty/Students": "INR 2000/2500"
+    }
   },
   "Notes": [
     "Accommodation charges extra: INR 3000 in DAIICT Hotel (per night on a sharing basis).",
