@@ -1,7 +1,295 @@
+
 {
   "speakers": [
     {
-      "name": "Prof. B.V. Rathish Kumar",
+      "name": "Syed Abbas",
+      "affiliation": "Professor, IIT Mandi",
+      "researchInterests": [
+        "Almost Periodic Solutions",
+        "Functional Differential Equations",
+        "Ecological Modeling",
+        "Fractional Differential Equations"
+      ],
+      "image": "./assets/speakers_images/Prof. Syed Abbas.jpg",
+      "link": "https://faculty.iitmandi.ac.in/~abbas/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "R P Aggarwal",
+      "affiliation": "Professor, Texas A&M University\u2013Kingsville",
+      "researchInterests": [
+        "Numerical Analysis",
+        "Differential and Difference Equations",
+        "Inequalities",
+        "Fixed Point Theorems"
+      ],
+      "image": "./assets/speakers_images/Prof. R P Aggarwal.jpg",
+      "link": "https://www.scirp.org/Journal/detailedInforofeditorialboard?personid=8574",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Vivek K Aggarwal",
+      "affiliation": "Thapar University",
+      "researchInterInterests": [],
+      "image": "./assets/speakers_images/Dr Vivek K Aggarwal.jpeg",
+      "link": "#",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Rajan Arora",
+      "affiliation": "IIT Roorkee",
+      "researchInterInterests": [
+        "Applied Mathematics",
+        "Partial Differential Equations",
+        "Solution methods for PDEs"
+      ],
+      "image": "./assets/speakers_images/Dr Rajan Arora.jpeg",
+      "link": "https://iitr.ac.in/Departments/Applied%20Mathematics%20and%20Scientific%20Computing%20Department/People/Faculty/400119.html",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Abdon Atangana",
+      "affiliation": "Professor, University of The Free State, South Africa",
+      "researchInterests": [
+        "Applied Mathematics"
+      ],
+      "image": "./assets/speakers_images/Prof. Abdon Atangana.jpg",
+      "link": "https://www.ufs.ac.za/media/leading-researchers/prof-abdon-atangana",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Ashish Awasthi",
+      "affiliation": "NIT Calicut",
+      "researchInterInterests": [
+        "Numerical Analysis"
+      ],
+      "image": "./assets/speakers_images/Dr Ashish Awasthi.jpeg",
+      "link": "https://nitc.ac.in/department/mathematics/faculty-and-staff/faculty/de07c1f3-62de-4382-b954-9bdeb0c593ed",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Biswaroop Biswas",
+      "affiliation": "Assistant Professor, Mahindra University",
+      "researchInterests": [
+        "Numerical Analysis",
+        "Computational methods for partial differential equations",
+        "Hyperbolic conservation laws"
+      ],
+      "image": "./assets/speakers_images/Dr. Biswaroop Biswas.webp",
+      "link": "https://www.mahindrauniversity.edu.in/faculty/biswarup-biswas/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Peeyush Chandra",
+      "affiliation": "Professor (Retired), IIT Kanpur",
+      "researchInterests": [
+        "Bio-Fluid Mechanics",
+        "Fluid Mechanics (Low Reynolds Number Flow)",
+        "Lubrication Theory",
+        "Magnetic Fluids",
+        "Ecological Modeling",
+        "Mathematical Epidemiology"
+      ],
+      "image": "./assets/speakers_images/Prof. Peeyush Chandra.jpg",
+      "link": "https://home.iitk.ac.in/~peeyush/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Geetanjali Chattopadhyay",
+      "affiliation": "MNIT Jaipur",
+      "researchInterInterests": [
+        "Fluid Dynamics",
+        "Flow stability",
+        "Flow in porous channels",
+        "Thin films"
+      ],
+      "image": "./assets/speakers_images/Dr. Geetanjali Chattopadhyay.png",
+      "link": "https://www.mnit.ac.in/dept_math/profile?fid=RqqO",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Sumita Dahiya",
+      "affiliation": "Assistant Professor, NSUT Delhi",
+      "researchInterests": [],
+      "image": "./assets/speakers_images/Dr. Sumita Dahiya.jpg",
+      "link": "#",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Jyotiska Datta",
+      "affiliation": "Central University of Odisha",
+      "researchInterInterests": [
+        "Mathematical Biology",
+        "Population Dynamics",
+        "Mathematical Ecology"
+      ],
+      "image": "./assets/speakers_images/Dr Jyotiska Datta.jpeg",
+      "link": "https://www.cuo.ac.in/PHOTO_GALLARY/StaffCV/CV_Jyotiska_Datta_Mathematics.pdf",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Shruti Dubey",
+      "affiliation": "Professor, IIT Madras",
+      "researchInterests": [
+        "Analysis of fractional functional DE",
+        "Mathematical Study of ferromagnetic systems",
+        "Neural network and differential equations"
+      ],
+      "image": "./assets/speakers_images/Prof. Shruti Dubey.jpg",
+      "link": "https://math.iitm.ac.in/innerfaculty.php?fname=Shruti%20Dubey",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Ritesh Kumar Dubey",
+      "affiliation": "Professor (Research) and Head, SRMIST",
+      "researchInterests": [
+        "Numerical analysis and PDEs",
+        "Deep Learning and Scientific computing"
+      ],
+      "image": "./assets/speakers_images/Prof. Ritesh Kumar Dubey.jpg",
+      "link": "https://www.srmist.edu.in/faculty/dr-ritesh-kumar-dubey/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Sharad Dwivedi",
+      "affiliation": "Assistant Professor, NIT Andhra Pradesh",
+      "researchInterests": [
+        "Differential Equations",
+        "Magnetization dynamics in ferromagnetic nanostructures"
+      ],
+      "image": "./assets/speakers_images/Dr. Sharad Dwivedi.jpg",
+      "link": "https://nitandhra.ac.in/dept/sos/20171",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Sukhendu Ghosh",
+      "affiliation": "Associate Professor, IIT Jodhpur",
+      "researchInterests": [
+        "Hydrodynamics",
+        "Numerical and mathematical methods",
+        "Dynamical systems",
+        "Lie group application"
+      ],
+      "image": "./assets/speakers_images/Dr. Sukhendu Ghosh.jpg",
+      "link": "https://research.iitj.ac.in/researcher/sukhendu-ghosh",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Bapan Ghosh",
+      "affiliation": "IIT Indore",
+      "researchInterInterests": [
+        "Dynamical System",
+        "Discrete Models Applied in Population Dynamics",
+        "Delay Differential Equations"
+      ],
+      "image": "./assets/speakers_images/Prof. Bapan Ghosh.jpg",
+      "link": "https://iiti.irins.org/profile/113211",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "G D V Gowda",
+      "affiliation": "Professor, Mahindra University",
+      "researchInterests": [
+        "Partial differential equations and Numerical Analysis",
+        "Hyperbolic conservation laws and Hamilton-Jacobi equations",
+        "Numerical methods for two phase flow",
+        "Image processing",
+        "Growth of sand piles",
+        "Non-local hyperbolic conservation laws"
+      ],
+      "image": "./assets/speakers_images/Prof. G D V Gowda.png",
+      "link": "https://www.mahindrauniversity.edu.in/faculty/veerappa-gowda-g-d/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Vikas Gupta",
+      "affiliation": "Professor, LNMIIT Jaipur",
+      "researchInterests": [
+        "Numerical analysis",
+        "Computational ODE and PDEs",
+        "Singularly perturbed problems",
+        "B-spline collocation",
+        "Higher order FDM",
+        "Operational matrix methods",
+        "Semi-analytical methods",
+        "Boundary and interior layers",
+        "Layer adapted meshes",
+        "Automated mesh generation techniques",
+        "Fractional differential Equations",
+        "Mathematical and Computational Finance"
+      ],
+      "image": "./assets/speakers_images/Prof. Vikas Gupta.jpg",
+      "link": "https://lnmiit.ac.in/faculty-list/dr-vikas-gupta/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Mahipal Jetta",
+      "affiliation": "Associate Professor, Mahindra University",
+      "researchInterests": [
+        "Partial Differential Equations based Image Processing",
+        "Finite Difference Method for Differential Equations"
+      ],
+      "image": "./assets/speakers_images/Dr. Mahipal Jetta.webp",
+      "link": "https://www.mahindrauniversity.edu.in/faculty/mahipal-j/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Brajesh Jha",
+      "affiliation": "Associate Professor, PDEU Gandhinagar",
+      "researchInterests": [
+        "Biomathematics",
+        "Computational biology",
+        "Mathematical modeling"
+      ],
+      "image": "./assets/speakers_images/Prof. Brajesh Jha.jpg",
+      "link": "https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=brajesh.jha",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Anuradha Jha",
+      "affiliation": "Assistant Professor, IIIT Guwahati",
+      "researchInterests": [
+        "Numerical solutions of ordinary and partial differential equations",
+        "Singular perturbation problems"
+      ],
+      "image": "./assets/speakers_images/Dr Anuradha Jha.jpg",
+      "link": "https://www.iiitg.ac.in/science-and-mathemetics/anuradha-jha",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Kadalbajoo",
+      "affiliation": "Distinguished Professor, LNMIIT",
+      "researchInterests": [
+        "Direct Elliptic Solvers",
+        "Numerical methods with analysis of Singular Boundary Value Problems",
+        "Finite Difference",
+        "Boundary Elements",
+        "Spline Collocation",
+        "Fitted operator/mesh methods for singularly perturbation problems in ODEs, PDEs, and DDEs",
+        "Parallel algorithms",
+        "Computational Finance and option pricing"
+      ],
+      "image": "./assets/speakers_images/Prof. Kadalbajoo.jpg",
+      "link": "https://lnmiit.ac.in/faculty-list/prof-mohan-krishen-kadalbajoo/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Saurabh Katiyar",
+      "affiliation": "Assistant Professor, NIT Jalandhar",
+      "researchInterests": [
+        "Real Analysis",
+        "Fractal Geometry",
+        "Fractal Functions",
+        "Fixed Point Theory and Applications",
+        "Computer Aided Geometric Design",
+        "Numerical Analysis"
+      ],
+      "image": "./assets/speakers_images/Dr Saurabh Katiyar.jpeg",
+      "link": "https://departments.nitj.ac.in/dept/ma/Faculty/64b7664b70a199ae57d48c64",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "B.V. Rathish Kumar",
       "affiliation": "Professor, IIT Kanpur",
       "researchInterests": [
         "Finite Element Analysis",
@@ -21,97 +309,148 @@
         "Monsoon Dynamics",
         "Cardiac Electric Activity"
       ],
-      "image": "./assets/speakers_images/rathish_kumar.jpg",
+      "image": "./assets/speakers_images/Prof. B.V. Rathish Kumar.jpg",
       "link": "https://www.iitk.ac.in/new/rathish-kumar-b-v",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. Abdon Atangana",
-      "affiliation": "Professor, University of The Free State, South Africa",
+      "name": "Sanjeev Kumar",
+      "affiliation": "Professor, IIT Roorkee",
       "researchInterests": [
-        "Applied Mathematics"
+        "MATHEMATICAL IMAGE PROCESSING",
+        "Computational Algorithms for Image Restoration",
+        "Image Encryption and Secret Sharing",
+        "Quantum Imaging",
+        "3-D Reconstruction",
+        "MACHINE LEARNING",
+        "Neural Networks and Tree-based Classifiers",
+        "Applications in Image Processing"
       ],
-      "image": "./assets/speakers_images/atangana.jpg",
-      "link": "https://www.ufs.ac.za/media/leading-researchers/prof-abdon-atangana",
+      "image": "./assets/speakers_images/Prof. Sanjeev Kumar.jpeg",
+      "link": "https://www.iitr.ac.in/~MA/Malikfma",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. Peeyush Chandra",
-      "affiliation": "Professor (Retired), IIT Kanpur",
+      "name": "Nitu Kumari",
+      "affiliation": "Associate Professor, IIT Mandi",
       "researchInterests": [
-        "Bio-Fluid Mechanics",
-        "Fluid Mechanics (Low Reynolds Number Flow)",
-        "Lubrication Theory",
-        "Magnetic Fluids",
-        "Ecological Modeling",
-        "Mathematical Epidemiology"
+        "Mathematical Modelling",
+        "Dynamical Systems",
+        "Machine Learning based Modelling",
+        "Nonlinear Dynamics and Chaos Theory",
+        "Differential Equations (ODE and PDE)"
       ],
-      "image": "./assets/speakers_images/peeyush_chandra.jpg",
-      "link": "https://home.iitk.ac.in/~peeyush/",
+      "image": "./assets/speakers_images/Prof Nitu Kumari, IIT Mandi.jpg",
+      "link": "https://faculty.iitmandi.ac.in/~nitu/",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. G P Rajashekhar",
-      "affiliation": "Professor, IIT Kharagpur",
-      "researchInterests": [
-        "Hydrodynamics of low Reynolds number",
-        "Biphasic mixture theory",
-        "Boundary integral methods",
-        "Transport phenomena of viscous drops",
-        "Flow through anisotropic porous media"
+      "name": "Lakshman Mahto",
+      "affiliation": "BITS Mesra",
+      "researchInterInterests": [
+        "Dynamical systems & control",
+        "Statistical learning",
+        "Optimization",
+        "Nonlinear dynamics in autonomous systems"
       ],
-      "image": "./assets/speakers_images/rajashekhar.jpg",
-      "link": "https://www.iitkgp.ac.in/department/MA/faculty/ma-rajas",
+      "image": "./assets/speakers_images/Dr. Lakshman Mahto.png",
+      "link": "https://bitmesra.ac.in/Show_profile/477474392F50466E4E4D614734612F566541375959673D3D",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. Parshant Kumar Srivastava",
-      "affiliation": "Associate Professor, IIT Patna",
+      "name": "Muslim Malik",
+      "affiliation": "Associate Professor, IIT Mandi",
       "researchInterests": [
-        "Mathematical Modeling in Ecology and Epidemiology",
-        "Applications of Differential Equations in Biology",
-        "Stability and Bifurcation",
-        "Mathematical Modeling of HIV dynamics"
+        "Controllability of Differential Equations",
+        "Inverse Problems in Fluid Dynamics",
+        "Fractional, Delay, Impulsive and Neutral Differential Equations",
+        "Mathematical Biology Applications",
+        "Time Scales Calculus"
       ],
-      "image": "./assets/speakers_images/parshant_srivastava.jpg",
-      "link": "https://www.iitp.ac.in/people-dept-menu/faculty/260:view-profile-57",
+      "image": "./assets/speakers_images/Prof. Muslim Malik.png",
+      "link": "https://faculty.iitmandi.ac.in/~muslim/",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. Shruti Dubey",
-      "affiliation": "Professor, IIT Madras",
+      "name": "Sumit Malik",
+      "affiliation": "Associate Professor, Bennett University",
       "researchInterests": [
-        "Analysis of fractional functional DE",
-        "Mathematical Study of ferromagnetic systems",
-        "Neural network and differential equations"
+        "Computational Fluid Dynamics",
+        "Heat transfer and entropy generation",
+        "Ventilation problems",
+        "Drop deformation in viscous flows"
       ],
-      "image": "./assets/speakers_images/shruti_dubey.jpg",
-      "link": "https://math.iitm.ac.in/innerfaculty.php?fname=Shruti%20Dubey",
+      "image": "./assets/speakers_images/Dr. Sumit Malik.webp",
+      "link": "https://www.bennett.edu.in/faculties/sumit-malik/",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. Ritesh Kumar Dubey",
-      "affiliation": "Professor (Research) and Head, SRMIST",
+      "name": "Indira Mishra",
+      "affiliation": "Assistant Professor, IIIT Bhopal",
       "researchInterests": [
-        "Numerical analysis and PDEs",
-        "Deep Learning and Scientific computing"
+        "Homogenization",
+        "Optimal Controls",
+        "Elliptic Partial Differential Equations",
+        "Almost periodic solutions",
+        "Almost automorphic solutions"
       ],
-      "image": "./assets/speakers_images/ritesh_dubey.jpg",
-      "link": "https://www.srmist.edu.in/faculty/dr-ritesh-kumar-dubey/",
+      "image": "./assets/speakers_images/Dr Indira Mishra.webp",
+      "link": "https://iiitbhopal.ac.in/Media/Faculty/10036/Resume.pdf",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. A K Nandakumaran",
+      "name": "AK Misra",
+      "affiliation": "Professor, BHU",
+      "researchInterests": [
+        "Mathematical Modeling of environmental & ecological systems",
+        "Mathematical Modeling of Epidemics",
+        "Mathematical Modeling of Social Dynamics",
+        "Bifurcation and Delay Mathematical Modeling",
+        "Spatio - Temporal Modeling",
+        "Deterministic and Stochastic mathematical modelling"
+      ],
+      "image": "./assets/speakers_images/Prof AK Misra.jpeg",
+      "link": "https://bhu.ac.in/Site/FacultyProfile/1_156?FA000891",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Manil T Mohan",
+      "affiliation": "IIT Roorkee",
+      "researchInterInterests": [
+        "Stochastic Differential Equations",
+        "Large Deviation Theory",
+        "Ergodicity",
+        "PDE Solvability",
+        "Control Theory",
+        "Optimization under constraints"
+      ],
+      "image": "./assets/speakers_images/Dr Manil T Mohan.jpg",
+      "link": "https://www.iitr.ac.in/~MA/Manil_T__Mohan",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Anushaya Mohapatra",
+      "affiliation": "BITS Pilani Goa",
+      "researchInterInterests": [
+        "Dynamical Systems",
+        "Mathematical Biology"
+      ],
+      "image": "./assets/speakers_images/Dr. Anushaya Mohapatra.webp",
+      "link": "https://www.bits-pilani.ac.in/goa/anushaya-chittaranjan-mohapatra/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "A K Nandakumaran",
       "affiliation": "Chairman & Professor, IISc Bangalore",
       "researchInterests": [
         "Partial Differential Equations"
       ],
-      "image": "./assets/speakers_images/nandakumaran.jpg",
+      "image": "./assets/speakers_images/Prof. A K Nandakumaran.jpg",
       "link": "https://math.iisc.ac.in/~nands/",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. S Natesan",
+      "name": "S Natesan",
       "affiliation": "Professor, IIT Guwahati",
       "researchInterests": [
         "Numerical Solution of Singular Perturbation Problems",
@@ -124,12 +463,151 @@
         "Computational Finance",
         "Big Data Analytics - AI/ML/DL"
       ],
-      "image": "./assets/speakers_images/natesan.jpg",
+      "image": "./assets/speakers_images/Prof. S Natesan.jpg",
       "link": "https://www.iitg.ac.in/natesan/",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. C S Sastry",
+      "name": "C S Nishad",
+      "affiliation": "IIIT Naya Raipur",
+      "researchInterInterests": [
+        "Boundary Element Methods (Theory & Applications)",
+        "Fluid Dynamics",
+        "Water Wave Problems",
+        "Coastal Engineering",
+        "Liquid Sloshing Dynamics"
+      ],
+      "image": "./assets/speakers_images/Dr. C S Nishad.jpeg",
+      "link": "https://www.iiitnr.ac.in/content/chandra-shekhar-nishad",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Rajesh K Pandey",
+      "affiliation": "Professor, IIT BHU",
+      "researchInterests": [
+        "Differential Equations",
+        "Numerical Methods for Integro-differential Equations",
+        "Wavelets",
+        "Fractional Derivatives",
+        "Image Processing and Artificial Intelligence"
+      ],
+      "image": "./assets/speakers_images/Prof Rajesh K Pandey.jpg",
+      "link": "https://iitbhu.ac.in/dept/mat/people/rkpandeymat",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Ambuj Pandey",
+      "affiliation": "Assistant Professor, IISER Bhopal",
+      "researchInterests": [
+        "Numerical Analysis And Scientific Computing"
+      ],
+      "image": "./assets/speakers_images/Dr. Ambuj Pandey.jpg",
+      "link": "https://maths.iiserb.ac.in/faculty_details2/MTUwNg==",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Prashant K Pandey",
+      "affiliation": "Poornima University Jaipur",
+      "researchInterInterests": [
+        "Numerical Analysis",
+        "Computational Mathematics",
+        "Modeling and Simulation",
+        "Artificial Intelligence"
+      ],
+      "image": "./assets/speakers_images/Dr Prashant K Pandey.jpg",
+      "link": "https://researchid.co/spandey",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Kamna Porwal",
+      "affiliation": "Associate Professor, IIT Delhi",
+      "researchInterests": [
+        "Numerical Analysis",
+        "Finite Element method"
+      ],
+      "image": "./assets/speakers_images/Dr. Kamna Porwal.jpeg",
+      "link": "https://iitd.irins.org/profile/60766#personal_information_panel",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "S D Purohit",
+      "affiliation": "RTU Kota",
+      "researchInterInterests": [
+        "Fractional Calculus",
+        "Special Functions",
+        "Integral Transforms",
+        "q-Hypergeometric Functions",
+        "Geometric Function Theory",
+        "Mathematical Modeling"
+      ],
+      "image": "./assets/speakers_images/Dr S D Purohit.jpeg",
+      "link": "https://rtu.ac.in/index/viewdata.php?page=Dr-Sunil-Dutt-Purohit-Profile157",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Pratima Rai",
+      "affiliation": "Assistant Professor, Delhi University",
+      "researchInterests": [
+        "Numerical analysis",
+        "Singular perturbation problems",
+        "Differential equations"
+      ],
+      "image": "./assets/speakers_images/Dr Pratima Rai.jpeg",
+      "link": "https://people.samarth.edu.in/index.php/profile/user/index/DU/ngr",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "G P Rajashekhar",
+      "affiliation": "Professor, IIT Kharagpur",
+      "researchInterests": [
+        "Hydrodynamics of low Reynolds number",
+        "Biphasic mixture theory",
+        "Boundary integral methods",
+        "Transport phenomena of viscous drops",
+        "Flow through anisotropic porous media"
+      ],
+      "image": "./assets/speakers_images/Prof. G P Rajashekhar.png",
+      "link": "https://www.iitkgp.ac.in/department/MA/faculty/ma-rajas",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Rajesh",
+      "affiliation": "BITS Pilani",
+      "researchInterInterests": [
+        "Computational Mechanics",
+        "Dynamic Instability",
+        "Nonlinear Vibration",
+        "Nonlinear Solid Mechanics"
+      ],
+      "image": "./assets/speakers_images/Dr Rajesh.webp",
+      "link": "https://www.bits-pilani.ac.in/pilani/rajeshkr/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Akmal Raza",
+      "affiliation": "BIT Mesra",
+      "researchInterInterests": [
+        "Application of Wavelets"
+      ],
+      "image": "./assets/speakers_images/Dr. Akmal Raza.jpg",
+      "link": "https://bitmesra.ac.in/Show_profile/73564E523350412B47414A76633863746172643178673D3D",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Manoj Sahni",
+      "affiliation": "Professor, PDEU Gandhinagar",
+      "researchInterests": [
+        "Solid Mechanics",
+        "Functionally Graded Materials",
+        "Fuzzy Set Theory",
+        "Energy"
+      ],
+      "image": "./assets/speakers_images/Prof. Manoj Sahni.jpg",
+      "link": "https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=manoj.sahni",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "C S Sastry",
       "affiliation": "Professor, IIT Hyderabad",
       "researchInterests": [
         "Wavelets",
@@ -138,68 +616,199 @@
         "Sparse representation theory",
         "Inverse problems"
       ],
-      "image": "./assets/speakers_images/cs_sastry.jpg",
+      "image": "./assets/speakers_images/Prof. C S Sastry.jpg",
       "link": "https://iith.ac.in/math/csastry/",
       "speakerType": "fixed"
     },
-     {
-      "name": "Prof. Kadalbajoo",
-      "affiliation": "Distinguished Professor, LNMIIT",
-      "researchInterests": [
-        "Direct Elliptic Solvers",
-        "Numerical methods with analysis of Singular Boundary Value Problems",
-        "Finite Difference",
-        "Boundary Elements",
-        "Spline Collocation",
-        "Fitted operator/mesh methods for singularly perturbation problems in ODEs, PDEs, and DDEs",
-        "Parallel algorithms",
-        "Computational Finance and option pricing"
+    {
+      "name": "Chirala Satyanarayana",
+      "affiliation": "Mahindra University",
+      "researchInterInterests": [
+        "Radial Basis Function based grid free/meshfree schemes",
+        "Numerical Analysis",
+        "Computational Fluid Dynamics"
       ],
-      "image": "./assets/speakers_images/kadalbajoo.jpg",
-      "link": "https://lnmiit.ac.in/faculty-list/prof-mohan-krishen-kadalbajoo/",
+      "image": "./assets/speakers_images/Dr. Chirala Satyanarayana.webp",
+      "link": "https://www.mahindrauniversity.edu.in/faculty/chirala-satyanarayana/",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. S Sundar",
+      "name": "Navneet Sharma",
+      "affiliation": "Gujarat State University, Vadodara",
+      "researchInterInterests": [
+        "Geometric Function Theory",
+        "Univalent Function Theory",
+        "Special Functions",
+        "q-theory"
+      ],
+      "image": "./assets/speakers_images/Dr Navneet Sharma.jpeg",
+      "link": "https://gsv.ac.in/faculties/navneet-lal-sharma/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Anurag Shukla",
+      "affiliation": "Assistant Professor, REC Kannauj",
+      "researchInterests": [
+        "Mathematical Control theory",
+        "Differential Equations",
+        "Fractional Calculus",
+        "Dynamical Systems"
+      ],
+      "image": "./assets/speakers_images/Dr Anurag Shukla.jpg",
+      "link": "https://reck.ac.in/ash-faculty/dr-anurag-shukla/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Sanjeev Singh",
+      "affiliation": "Associate Professor, IIT Indore",
+      "researchInterests": [
+        "Special Functions",
+        "Geometric Function Theory"
+      ],
+      "image": "./assets/speakers_images/Dr Sanjeev Singh.jpg",
+      "link": "https://people.iiti.ac.in/~snjvsngh/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Alpesh Singh",
+      "affiliation": "Assistant Professor, Allahabad University",
+      "researchInterests": [
+        "Mesh Free Methods",
+        "Computational Finance"
+      ],
+      "image": "./assets/speakers_images/Dr Alpesh Singh.jpg",
+      "link": "https://allduniv.ac.in/faculties/mathematics",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Ankur Singh",
+      "affiliation": "PDEU Gandhinagar",
+      "researchInterInterests": [
+        "Algebraic Coding Theory",
+        "Number Theory"
+      ],
+      "image": "./assets/speakers_images/Dr. Ankur Singh.jpg",
+      "link": "https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=ankur.singh",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Akhil Srivastav",
+      "affiliation": "Researcher, KU Leuven",
+      "researchInterests": [
+        "NWP Modeling",
+        "Mesoscale Modeling",
+        "Tropical Cyclones",
+        "Heat Waves"
+      ],
+      "image": "./assets/speakers_images/Dr Akhil Srivastav.jpeg",
+      "link": "https://www.kuleuven.be/wieiswie/en/person/00178555",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Parshant Kumar Srivastava",
+      "affiliation": "Associate Professor, IIT Patna",
+      "researchInterests": [
+        "Mathematical Modeling in Ecology and Epidemiology",
+        "Applications of Differential Equations in Biology",
+        "Stability and Bifurcation",
+        "Mathematical Modeling of HIV dynamics"
+      ],
+      "image": "./assets/speakers_images/Dr. Prashant Kumar Srivastava.jpeg",
+      "link": "https://www.iitp.ac.in/people-dept-menu/faculty/260:view-profile-57",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Nikhil Srivastava",
+      "affiliation": "NIT Mizoram",
+      "researchInterInterests": [
+        "Numerical Methods for Fractional PDEs",
+        "Numerical Approximations of Fractional Derivatives",
+        "Variable and Distributive Order PDEs",
+        "Operational Matrix Methods"
+      ],
+      "image": "./assets/speakers_images/Dr. Nikhil Srivastava.jpeg",
+      "link": "https://www.nitmz.ac.in/Department_FacultyProfile.aspx?nDeptID=eaaiie",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Sudhakar",
+      "affiliation": "Associate Professor, IITRAM Gandhinagar",
+      "researchInterests": [
+        "Finite element methods for partial differential equations",
+        "Fractional order partial differential equations",
+        "WEB-Spline based mesh free methods"
+      ],
+      "image": "./assets/speakers_images/Dr. Sudhakar.jpg",
+      "link": "https://iitram.ac.in/empdetail/2018240",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "S Sundar",
       "affiliation": "Chair Professor, IIT Madras",
       "researchInterests": [
         "Numerics for PDEs",
         "Mathematical Modeling & Numerical Simulation"
       ],
-      "image": "./assets/speakers_images/s_sundar.jpg",
+      "image": "./assets/speakers_images/Prof. S Sundar.jpg",
       "link": "https://home.iitm.ac.in/slnt/",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. R P Aggarwal",
-      "affiliation": "Professor, Texas A&M University–Kingsville",
+      "name": "Awanish Tiwari",
+      "affiliation": "Assistant Professor, IIIT Bhopal",
       "researchInterests": [
-        "Numerical Analysis",
-        "Differential and Difference Equations",
-        "Inequalities",
-        "Fixed Point Theorems"
+        "Numerical Methods for PDE and Integral equation",
+        "Wave Scattering Problems"
       ],
-      "image": "./assets/speakers_images/rp_aggarwal.jpg",
-      "link": "https://www.scirp.org/Journal/detailedInforofeditorialboard?personid=8574",
+      "image": "./assets/speakers_images/Dr Awanish Tiwari.jpeg",
+      "link": "https://iiitbhopal.ac.in/Document/ff/AWANISH.html",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. AK Misra",
-      "affiliation": "Professor, BHU",
-      "researchInterests": [
-        "Mathematical Modeling of environmental & ecological systems",
-        "Mathematical Modeling of Epidemics",
-        "Mathematical Modeling of Social Dynamics",
-        "Bifurcation and Delay Mathematical Modeling",
-        "Spatio - Temporal Modeling",
-        "Deterministic and Stochastic mathematical modelling"
+      "name": "Mukesh Tiwari",
+      "affiliation": "DAIICT",
+      "researchInterInterests": [
+        "Nonequilibrium statistical mechanics",
+        "Nonlinear dynamics"
       ],
-      "image": "./assets/speakers_images/ak_misra.jpg",
-      "link": "https://bhu.ac.in/Site/FacultyProfile/1_156?FA000891",
+      "image": "./assets/speakers_images/Dr. Mukesh Tiwari.jpeg",
+      "link": "https://www.daiict.ac.in/faculty-details/261",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. Ranjit Upadhyay",
+      "name": "Arun K Tripathy",
+      "affiliation": "Professor, Berhampur University",
+      "researchInterests": [],
+      "image": "./assets/speakers_images/Prof Arun K Tripathy.jpeg",
+      "link": "#",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Jagmohan Tyagi",
+      "affiliation": "Professor, IIT Gandhinagar",
+      "researchInterests": [
+        "Ordinary differential equations",
+        "Elliptic partial differential equations"
+      ],
+      "image": "./assets/speakers_images/Prof. Jagmohan Tyagi.jpg",
+      "link": "https://iitgn.ac.in/faculty/maths/fac-jagmohan",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Umeshkanta",
+      "affiliation": "Bennett University",
+      "researchInterInterests": [
+        "Nonlinear Dynamics",
+        "Coupled Oscillators",
+        "Synchronization of Complex Networks",
+        "Stochastic Chemical Kinetics"
+      ],
+      "image": "./assets/speakers_images/Dr. Umeshkanta.png",
+      "link": "https://www.bennett.edu.in/faculties/dr-thounaojam-umeshkanta-singh/",
+      "speakerType": "fixed"
+    },
+    {
+      "name": "Ranjit Upadhyay",
       "affiliation": "Professor (HAG), IIT ISM Dhanbad",
       "researchInterests": [
         "Nonlinear Differential Equations (ODE, PDE, Delay, Cross-diffusive)",
@@ -214,284 +823,25 @@
         "Virus dynamics",
         "Brain dynamics and Neural modeling"
       ],
-      "image": "./assets/speakers_images/ranjit_upadhyay.jpg",
+      "image": "./assets/speakers_images/Prof Ranjit Upadhyay.png",
       "link": "https://www.iitism.ac.in/faculty-details?faculty=ranjit",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. Rajesh K Pandey",
-      "affiliation": "Professor, IIT BHU",
-      "researchInterests": [
+      "name": "V. Vijayakumar",
+      "affiliation": "VIT Vellore",
+      "researchInterInterests": [
         "Differential Equations",
-        "Numerical Methods for Integro-differential Equations",
-        "Wavelets",
-        "Fractional Derivatives",
-        "Image Processing and Artificial Intelligence"
+        "Fractional Systems",
+        "Control Theory",
+        "Neural Networks"
       ],
-      "image": "./assets/speakers_images/rk_pandey.jpg",
-      "link": "https://iitbhu.ac.in/dept/mat/people/rkpandeymat",
+      "image": "./assets/speakers_images/Dr. V. Vijayakumar.jpg",
+      "link": "https://vitdirectory.vit.ac.in/page/faculty/16162",
       "speakerType": "fixed"
     },
     {
-      "name": "Prof. G D V Gowda",
-      "affiliation": "Professor, Mahindra University",
-      "researchInterests": [
-        "Partial differential equations and Numerical Analysis",
-        "Hyperbolic conservation laws and Hamilton-Jacobi equations",
-        "Numerical methods for two phase flow",
-        "Image processing",
-        "Growth of sand piles",
-        "Non-local hyperbolic conservation laws"
-      ],
-      "image": "./assets/speakers_images/gd_gowda.jpg",
-      "link": "https://www.mahindrauniversity.edu.in/faculty/veerappa-gowda-g-d/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Prof. Sanjeev Kumar",
-      "affiliation": "Professor, IIT Roorkee",
-      "researchInterests": [
-        "MATHEMATICAL IMAGE PROCESSING",
-        "Computational Algorithms for Image Restoration",
-        "Image Encryption and Secret Sharing",
-        "Quantum Imaging",
-        "3-D Reconstruction",
-        "MACHINE LEARNING",
-        "Neural Networks and Tree-based Classifiers",
-        "Applications in Image Processing"
-      ],
-      "image": "./assets/speakers_images/sanjeev_kumar.jpg",
-      "link": "https://www.iitr.ac.in/~MA/Malikfma",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Prof. Nitu Kumari",
-      "affiliation": "Associate Professor, IIT Mandi",
-      "researchInterests": [
-        "Mathematical Modelling",
-        "Dynamical Systems",
-        "Machine Learning based Modelling",
-        "Nonlinear Dynamics and Chaos Theory",
-        "Differential Equations (ODE and PDE)"
-      ],
-      "image": "./assets/speakers_images/nitu_kumari.jpg",
-      "link": "https://faculty.iitmandi.ac.in/~nitu/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Akhil Srivastav",
-      "affiliation": "Researcher, KU Leuven",
-      "researchInterests": [
-        "NWP Modeling",
-        "Mesoscale Modeling",
-        "Tropical Cyclones",
-        "Heat Waves"
-      ],
-      "image": "./assets/speakers_images/akhil_srivastav.jpg",
-      "link": "https://www.kuleuven.be/wieiswie/en/person/00178555",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Prof. Vikas Gupta",
-      "affiliation": "Professor, LNMIIT Jaipur",
-      "researchInterests": [
-        "Numerical analysis",
-        "Computational ODE and PDEs",
-        "Singularly perturbed problems",
-        "B-spline collocation",
-        "Higher order FDM",
-        "Operational matrix methods",
-        "Semi-analytical methods",
-        "Boundary and interior layers",
-        "Layer adapted meshes",
-        "Automated mesh generation techniques",
-        "Fractional differential Equations",
-        "Mathematical and Computational Finance"
-      ],
-      
-
-
-      "image": "./assets/speakers_images/vikas_gupta.jpg",
-      "link": "https://lnmiit.ac.in/faculty-list/dr-vikas-gupta/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Prof. Syed Abbas",
-      "affiliation": "Professor, IIT Mandi",
-      "researchInterests": [
-        "Almost Periodic Solutions",
-        "Functional Differential Equations",
-        "Ecological Modeling",
-        "Fractional Differential Equations"
-      ],
-      "image": "./assets/speakers_images/syed_abbas.jpg",
-      "link": "https://faculty.iitmandi.ac.in/~abbas/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Prof. Muslim Malik",
-      "affiliation": "Associate Professor, IIT Mandi",
-      "researchInterests": [
-        "Controllability of Differential Equations",
-        "Inverse Problems in Fluid Dynamics",
-        "Fractional, Delay, Impulsive and Neutral Differential Equations",
-        "Mathematical Biology Applications",
-        "Time Scales Calculus"
-      ],
-      "image": "./assets/speakers_images/muslim_malik.jpg",
-      "link": "https://faculty.iitmandi.ac.in/~muslim/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Sharad Dwivedi",
-      "affiliation": "Assistant Professor, NIT Andhra Pradesh",
-      "researchInterests": [
-        "Differential Equations",
-        "Magnetization dynamics in ferromagnetic nanostructures"
-      ],
-      "image": "./assets/speakers_images/sharad_dwivedi.jpg",
-      "link": "https://nitandhra.ac.in/dept/sos/20171",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Saurabh Katiyar",
-      "affiliation": "Assistant Professor, NIT Jalandhar",
-      "researchInterests": [
-        "Real Analysis",
-        "Fractal Geometry",
-        "Fractal Functions",
-        "Fixed Point Theory and Applications",
-        "Computer Aided Geometric Design",
-        "Numerical Analysis"
-      ],
-      "image": "./assets/speakers_images/saurabh_katiyar.jpg",
-      "link": "https://departments.nitj.ac.in/dept/ma/Faculty/64b7664b70a199ae57d48c64",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Sanjeev Singh",
-      "affiliation": "Associate Professor, IIT Indore",
-      "researchInterests": [
-        "Special Functions",
-        "Geometric Function Theory"
-      ],
-      "image": "./assets/speakers_images/sanjeev_singh.jpg",
-      "link": "https://people.iiti.ac.in/~snjvsngh/",
-      "speakerType": "fixed"
-    },
-     {
-      "name": "Dr. Sukhendu Ghosh, IIT Jodhpur",
-      "affiliation": "Associate Professor, IIT Jodhpur",
-      "researchInterests": [
-        "Hydrodynamics",
-        "Numerical and mathematical methods",
-        "Dynamical systems",
-        "Lie group application"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://research.iitj.ac.in/researcher/sukhendu-ghosh",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Ambuj Pandey, IISER Bhopal",
-      "affiliation": "Assistant Professor, IISER Bhopal",
-      "researchInterests": ["Numerical Analysis And Scientific Computing"],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://maths.iiserb.ac.in/faculty_details2/MTUwNg==",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Prof. Manoj Sahni, PDEU Gandhinagar",
-      "affiliation": "Professor, PDEU Gandhinagar",
-      "researchInterests": [
-        "Solid Mechanics",
-        "Functionally Graded Materials",
-        "Fuzzy Set Theory",
-        "Energy"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=manoj.sahni",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Prof. Brajesh Jha, PDEU Gandhinagar",
-      "affiliation": "Associate Professor, PDEU Gandhinagar",
-      "researchInterests": [
-        "Biomathematics",
-        "Computational biology",
-        "Mathematical modeling"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=brajesh.jha",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Prof. Jagmohan Tyagi, IIT Gandhinagar",
-      "affiliation": "Professor, IIT Gandhinagar",
-      "researchInterests": [
-        "Ordinary differential equations",
-        "Elliptic partial differential equations"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://iitgn.ac.in/faculty/maths/fac-jagmohan",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Sudhakar, IITRAM Gandhinagar",
-      "affiliation": "Associate Professor, IITRAM Gandhinagar",
-      "researchInterests": [
-        "Finite element methods for partial differential equations",
-        "Fractional order partial differential equations",
-        "WEB-Spline based mesh free methods"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://iitram.ac.in/empdetail/2018240",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Anurag Shukla, REC Kannauj",
-      "affiliation": "Assistant Professor, REC Kannauj",
-      "researchInterests": [
-        "Mathematical Control theory",
-        "Differential Equations",
-        "Fractional Calculus",
-        "Dynamical Systems"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://reck.ac.in/ash-faculty/dr-anurag-shukla/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Sumit Malik, Bennett University",
-      "affiliation": "Associate Professor, Bennett University",
-      "researchInterests": [
-        "Computational Fluid Dynamics",
-        "Heat transfer and entropy generation",
-        "Ventilation problems",
-        "Drop deformation in viscous flows"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.bennett.edu.in/faculties/sumit-malik/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Sumita Dahiya, NSUT Delhi",
-      "affiliation": "Assistant Professor, NSUT Delhi",
-      "researchInterests": [],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "#",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Sanjay Yadav, Alliance  University Bangalore",
-      "affiliation": "Associate Professor, Alliance University",
-      "researchInterests": [],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.alliance.edu.in/faculty/dr-sanjay-yadav",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Vishwanathan, IIT Delhi",
+      "name": "Vishwanathan",
       "affiliation": "Assistant Professor, IIT Delhi",
       "researchInterests": [
         "Approximation Theory",
@@ -499,119 +849,20 @@
         "Fractal Functions in Interpolation and Approximation",
         "Fractal Operators"
       ],
-      "image": "./assets/speakers_images/default.jpg",
+      "image": "./assets/speakers_images/Dr. Vishwanathan.jpeg",
       "link": "https://web.iitd.ac.in/~viswa/",
       "speakerType": "fixed"
     },
     {
-      "name": "Dr. Kamna Porwal, IIT Delhi",
-      "affiliation": "Associate Professor, IIT Delhi",
-      "researchInterests": ["Numerical Analysis", "Finite Element method"],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://iitd.irins.org/profile/60766#personal_information_panel",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Awanish Tiwari, IIIT Bhopal",
-      "affiliation": "Assistant Professor, IIIT Bhopal",
-      "researchInterests": [
-        "Numerical Methods for PDE and Integral equation",
-        "Wave Scattering Problems"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://iiitbhopal.ac.in/Document/ff/AWANISH.html",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Indira Mishra, IIIT Bhopal",
-      "affiliation": "Assistant Professor, IIIT Bhopal",
-      "researchInterests": [
-        "Homogenization",
-        "Optimal Controls",
-        "Elliptic Partial Differential Equations",
-        "Almost periodic solutions",
-        "Almost automorphic solutions"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://iiitbhopal.ac.in/Media/Faculty/10036/Resume.pdf",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Anuradha Jha, IIIT Guwahati",
-      "affiliation": "Assistant Professor, IIIT Guwahati",
-      "researchInterests": [
-        "Numerical solutions of ordinary and partial differential equations",
-        "Singular perturbation problems"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.iiitg.ac.in/science-and-mathemetics/anuradha-jha",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Pratima Rai, Delhi University",
-      "affiliation": "Assistant Professor, Delhi University",
-      "researchInterests": [
-        "Numerical analysis",
-        "Singular perturbation problems",
-        "Differential equations"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://people.samarth.edu.in/index.php/profile/user/index/DU/ngr",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Alpesh Singh, Allahabad University",
-      "affiliation": "Assistant Professor, Allahabad University",
-      "researchInterests": ["Mesh Free Methods", "Computational Finance"],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://allduniv.ac.in/faculties/mathematics",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Prof Arun K Tripathy, Berhampur University",
-      "affiliation": "Professor, Berhampur University",
+      "name": "Sanjay Yadav",
+      "affiliation": "Associate Professor, Alliance University",
       "researchInterests": [],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "#",
+      "image": "./assets/speakers_images/Dr Sanjay Yadav.webp",
+      "link": "https://www.alliance.edu.in/faculty/dr-sanjay-yadav",
       "speakerType": "fixed"
     },
     {
-      "name": "Dr. Biswaroop Biswas, Mahindra University",
-      "affiliation": "Assistant Professor, Mahindra University",
-      "researchInterests": [
-        "Numerical Analysis",
-        "Computational methods for partial differential equations",
-        "Hyperbolic conservation laws"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.mahindrauniversity.edu.in/faculty/biswarup-biswas/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Mahipal Jetta, Mahindra University",
-      "affiliation": "Associate Professor, Mahindra University",
-      "researchInterests": [
-        "Partial Differential Equations based Image Processing",
-        "Finite Difference Method for Differential Equations"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.mahindrauniversity.edu.in/faculty/mahipal-j/",
-      "speakerType": "fixed"
-    },
-     {
-      "name": "Dr. Chirala Satyanarayana, Mahindra University",
-      "affiliation": "Mahindra University",
-      "researchInterInterests": [
-        "Radial Basis Function based grid free/meshfree schemes",
-        "Numerical Analysis",
-        "Computational Fluid Dynamics"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.mahindrauniversity.edu.in/faculty/chirala-satyanarayana/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Jai Prakash Yadav, BHU",
+      "name": "Jai Prakash Yadav",
       "affiliation": "BHU",
       "researchInterInterests": [
         "ssNMR Docking",
@@ -620,253 +871,8 @@
         "Gaussian",
         "Quantum expresso (QE)"
       ],
-      "image": "./assets/speakers_images/default.jpg",
+      "image": "./assets/speakers_images/Dr Jai Prakash Yadav.jpeg",
       "link": "#",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Geetanjali Chattopadhyay, MNIT Jaipur",
-      "affiliation": "MNIT Jaipur",
-      "researchInterInterests": [
-        "Fluid Dynamics",
-        "Flow stability",
-        "Flow in porous channels",
-        "Thin films"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.mnit.ac.in/dept_math/profile?fid=RqqO",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Nikhil Srivastava, NIT Mizoram",
-      "affiliation": "NIT Mizoram",
-      "researchInterInterests": [
-        "Numerical Methods for Fractional PDEs",
-        "Numerical Approximations of Fractional Derivatives",
-        "Variable and Distributive Order PDEs",
-        "Operational Matrix Methods"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.nitmz.ac.in/Department_FacultyProfile.aspx?nDeptID=eaaiie",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Akmal Raza",
-      "affiliation": "BIT Mesra",
-      "researchInterInterests": [
-        "Application of Wavelets"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://bitmesra.ac.in/Show_profile/73564E523350412B47414A76633863746172643178673D3D",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Umeshkanta, Bennett University",
-      "affiliation": "Bennett University",
-      "researchInterInterests": [
-        "Nonlinear Dynamics",
-        "Coupled Oscillators",
-        "Synchronization of Complex Networks",
-        "Stochastic Chemical Kinetics"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.bennett.edu.in/faculties/dr-thounaojam-umeshkanta-singh/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Vivek K Aggarwal, Thapar University",
-      "affiliation": "Thapar University",
-      "researchInterInterests": [],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "#",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Lakshman Mahto, BITS Misra, Ranchi",
-      "affiliation": "BITS Mesra",
-      "researchInterInterests": [
-        "Dynamical systems & control",
-        "Statistical learning",
-        "Optimization",
-        "Nonlinear dynamics in autonomous systems"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://bitmesra.ac.in/Show_profile/477474392F50466E4E4D614734612F566541375959673D3D",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. C S Nishad, IIIT Naya Raipur",
-      "affiliation": "IIIT Naya Raipur",
-      "researchInterInterests": [
-        "Boundary Element Methods (Theory & Applications)",
-        "Fluid Dynamics",
-        "Water Wave Problems",
-        "Coastal Engineering",
-        "Liquid Sloshing Dynamics"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.iiitnr.ac.in/content/chandra-shekhar-nishad",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Jyotiska Datta, Central University of Odisha",
-      "affiliation": "Central University of Odisha",
-      "researchInterInterests": [
-        "Mathematical Biology",
-        "Population Dynamics",
-        "Mathematical Ecology"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.cuo.ac.in/PHOTO_GALLARY/StaffCV/CV_Jyotiska_Datta_Mathematics.pdf",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Manil T Mohan, IIT Roorkee",
-      "affiliation": "IIT Roorkee",
-      "researchInterInterests": [
-        "Stochastic Differential Equations",
-        "Large Deviation Theory",
-        "Ergodicity",
-        "PDE Solvability",
-        "Control Theory",
-        "Optimization under constraints"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.iitr.ac.in/~MA/Manil_T__Mohan",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Navneet Sharma, GSV Vadodara",
-      "affiliation": "Gujarat State University, Vadodara",
-      "researchInterInterests": [
-        "Geometric Function Theory",
-        "Univalent Function Theory",
-        "Special Functions",
-        "q-theory"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://gsv.ac.in/faculties/navneet-lal-sharma/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Prashant K Pandey, Poornima University Jaipur",
-      "affiliation": "Poornima University Jaipur",
-      "researchInterInterests": [
-        "Numerical Analysis",
-        "Computational Mathematics",
-        "Modeling and Simulation",
-        "Artificial Intelligence"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://researchid.co/spandey",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Rajesh, BITS Pilani",
-      "affiliation": "BITS Pilani",
-      "researchInterInterests": [
-        "Computational Mechanics",
-        "Dynamic Instability",
-        "Nonlinear Vibration",
-        "Nonlinear Solid Mechanics"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.bits-pilani.ac.in/pilani/rajeshkr/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr S D Purohit, RTU Kota",
-      "affiliation": "RTU Kota",
-      "researchInterInterests": [
-        "Fractional Calculus",
-        "Special Functions",
-        "Integral Transforms",
-        "q-Hypergeometric Functions",
-        "Geometric Function Theory",
-        "Mathematical Modeling"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://rtu.ac.in/index/viewdata.php?page=Dr-Sunil-Dutt-Purohit-Profile157",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Rajan Arora, IIT Roorkee",
-      "affiliation": "IIT Roorkee",
-      "researchInterInterests": [
-        "Applied Mathematics",
-        "Partial Differential Equations",
-        "Solution methods for PDEs"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://iitr.ac.in/Departments/Applied%20Mathematics%20and%20Scientific%20Computing%20Department/People/Faculty/400119.html",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr Ashish Awasthi, NIT Calicut",
-      "affiliation": "NIT Calicut",
-      "researchInterInterests": [
-        "Numerical Analysis"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://nitc.ac.in/department/mathematics/faculty-and-staff/faculty/de07c1f3-62de-4382-b954-9bdeb0c593ed",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. V. Vijayakumar (VIT Vellore)",
-      "affiliation": "VIT Vellore",
-      "researchInterInterests": [
-        "Differential Equations",
-        "Fractional Systems",
-        "Control Theory",
-        "Neural Networks"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://vitdirectory.vit.ac.in/page/faculty/16162",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Anushaya Mohapatra",
-      "affiliation": "BITS Pilani Goa",
-      "researchInterInterests": [
-        "Dynamical Systems",
-        "Mathematical Biology"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.bits-pilani.ac.in/goa/anushaya-chittaranjan-mohapatra/",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Mukesh Tiwari",
-      "affiliation": "DAIICT",
-      "researchInterInterests": [
-        "Nonequilibrium statistical mechanics",
-        "Nonlinear dynamics"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://www.daiict.ac.in/faculty-details/261",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Prof. Bapan Ghosh",
-      "affiliation": "IIT Indore",
-      "researchInterInterests": [
-        "Dynamical System",
-        "Discrete Models Applied in Population Dynamics",
-        "Delay Differential Equations"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://iiti.irins.org/profile/113211",
-      "speakerType": "fixed"
-    },
-    {
-      "name": "Dr. Ankur Singh",
-      "affiliation": "PDEU Gandhinagar",
-      "researchInterInterests": [
-        "Algebraic Coding Theory",
-        "Number Theory"
-      ],
-      "image": "./assets/speakers_images/default.jpg",
-      "link": "https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=ankur.singh",
       "speakerType": "fixed"
     }
   ]
