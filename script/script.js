@@ -15,7 +15,7 @@ $(document).ready(function () {
       <h4 class="workshop-title mt-4">Highlights of the Conference:</h4>
       <ul class="highlight-list mb-4">
         ${data.highlights
-          .map((point) => `<li class="highlight-item">• ${point}</li>`)
+          .map((point) => `<li class="highlight-item"> ${point}</li>`)
           .join("")}
       </ul>
 
