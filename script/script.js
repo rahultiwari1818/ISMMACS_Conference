@@ -4,9 +4,9 @@ $(document).ready(function () {
   });
 
   //   --------------------------------------- About Section data fetching -----------------------------------------------
-          // <h2 class="workshop-title text-center mb-4">${data.title}</h2>
-$.getJSON("./data/about_workshop.json", function (data) {
-  const content = `
+  // <h2 class="workshop-title text-center mb-4">${data.title}</h2>
+  $.getJSON("./data/about_workshop.json", function (data) {
+    const content = `
     <div class="about-workshop-content p-4">
       <p class="workshop-description mb-4">
         ${data.description.replace(/\n/g, "<br><br>")}
@@ -21,8 +21,8 @@ $.getJSON("./data/about_workshop.json", function (data) {
 
       
     </div>`;
-  $("#about-workshop-section").html(content);
-});
+    $("#about-workshop-section").html(content);
+  });
 
   // -------------------------------------------------- COnference Theme Section -------------------------------------------------------
 
@@ -38,7 +38,7 @@ $.getJSON("./data/about_workshop.json", function (data) {
 
     // Conference Theme
     let conferenceHTML = `<h3>${data.conferenceThemes.title}</h3><ul>`;
-        conferenceHTML += `<p>${data.conferenceThemes.description}</p><ul>`;
+    conferenceHTML += `<p>${data.conferenceThemes.description}</p><ul>`;
 
     data.conferenceThemes.topics.forEach((topic) => {
       conferenceHTML += `<li>${topic}</li>`;
@@ -106,14 +106,13 @@ $.getJSON("./data/about_workshop.json", function (data) {
   //   $("#schedule-container").html(scheduleHTML);
   // });
 
-
   $.getJSON("./data/workshop_schedule.json", function (data) {
-  let scheduleHTML = "";
+    let scheduleHTML = "";
 
-  // Override all schedule data with TBA
-  const tbaDays = ["Day 1", "Day 2", "Day 3"];
-  tbaDays.forEach((day) => {
-    scheduleHTML += `
+    // Override all schedule data with TBA
+    const tbaDays = ["Day 1", "Day 2", "Day 3"];
+    tbaDays.forEach((day) => {
+      scheduleHTML += `
       <div class="col-md-6">
         <div class="schedule-card p-3 h-100">
           <h5 class="schedule-day mb-3">${day} (To Be Announced)</h5>
@@ -134,32 +133,30 @@ $.getJSON("./data/about_workshop.json", function (data) {
         </div>
       </div>
     `;
+    });
+
+    $("#schedule-container").html(scheduleHTML);
   });
-
-  $("#schedule-container").html(scheduleHTML);
-});
-
 
   // ---------------------------------- Intended Audience Section -------------------------------------------------------
 
-$.getJSON('./data/intended_audience.json', function (data) {
-  $('#audience-title').text(data.title);
-  $('#audience-desc').text(data.description);
+  $.getJSON("./data/intended_audience.json", function (data) {
+    $("#audience-title").text(data.title);
+    $("#audience-desc").text(data.description);
 
-  let cardsHTML = '';
-  data.audience.forEach(person => {
-    cardsHTML += `
+    let cardsHTML = "";
+    data.audience.forEach((person) => {
+      cardsHTML += `
       <div class="audience-card">
         <img src="${person.image}" alt="${person.title}" class="audience-icon">
         <h3>${person.title}</h3>
         <p>${person.description}</p>
       </div>
     `;
+    });
+
+    $("#audience-cards-container").html(cardsHTML);
   });
-
-  $('#audience-cards-container').html(cardsHTML);
-});
-
 
   // ------------------------- to Committee Members data ------------------------------------------------------------
 
@@ -247,36 +244,52 @@ $.getJSON('./data/intended_audience.json', function (data) {
   //   --------------------------------------- Registration Notes Data fetch ------------------------------------------------------------
 
   $.getJSON("./data/registration_fees_and_notes.json", function (data) {
-    function renderFeeTable(targetId, feeData) {
-      let html = `<table class="custom-table"><thead><tr><th>Category</th><th>Online</th><th>Onsite</th></tr></thead><tbody>`;
-      const categories = Object.keys(feeData.Online);
-      categories.forEach((cat) => {
-        html += `<tr><td>${cat}</td><td>${feeData.Online[cat]}</td><td>${feeData.Onsite[cat]}</td></tr>`;
+    function renderDetailedFeeTable(targetId, feeData) {
+      let html = "";
+
+      // Loop over INDIAN and NRI separately
+      Object.keys(feeData).forEach((nationality) => {
+        html += `<h5>${nationality}</h5>`;
+
+        const membershipGroups = feeData[nationality];
+
+        Object.keys(membershipGroups).forEach((membershipType) => {
+          html += `<h6>${membershipType}</h6>`;
+          html += `<table class="custom-table"><thead><tr><th>Category</th><th>Fee</th></tr></thead><tbody>`;
+
+          const categoryFees = membershipGroups[membershipType];
+          Object.keys(categoryFees).forEach((category) => {
+            html += `<tr><td>${category}</td><td>${categoryFees[category]}</td></tr>`;
+          });
+
+          html += `</tbody></table>`;
+        });
       });
-      html += `</tbody></table>`;
+
       $(targetId).html(html);
     }
 
-    renderFeeTable(
-      "#workshopTable",
-      data["RegistrationFee(Including 18% GST)"]["Workshop"]
-    );
-    renderFeeTable(
+    renderDetailedFeeTable(
       "#conferenceTable",
-      data["RegistrationFee(Including 18% GST)"]["Conference"]
+      data["RegistrationFee (Including 18% GST)"]["Conference"]
     );
-    renderFeeTable(
+    renderDetailedFeeTable(
       "#workshopConfTable",
-      data["RegistrationFee(Including 18% GST)"]["Workshop + Conference"]
+      data["RegistrationFee (Including 18% GST)"]["Conference and Workshop"]
     );
 
-    $("#srmRate").text(
-      data["RegistrationFee(Including 18% GST)"]["SRM Faculty/Students"]
-    );
+    // Remove dau and simple notes logic if not needed, or keep if still valid
+    if (data["RegistrationFee (Including 18% GST)"]["dau Faculty/Students"]) {
+      $("#dauRate").text(
+        data["RegistrationFee (Including 18% GST)"]["dau Faculty/Students"]
+      );
+    }
 
-    data.Notes.forEach((note) => {
-      $("#notesList").append(`<li>${note}</li>`);
-    });
+    if (data.Notes) {
+      data.Notes.forEach((note) => {
+        $("#notesList").append(`<li>${note}</li>`);
+      });
+    }
 
     $(".toggle-btn").click(function () {
       const target = $(this).data("target");

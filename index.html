@@ -33,10 +33,10 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
             <ul class="navbar-nav align-items-center gap-3">
                 <li class="nav-item">
-                    <a class="nav-link custom-link" href="/">Home</a>
+                    <a class="nav-link custom-link" href="./">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-link" href="#registration-section">Registration</a>
+                    <a class="nav-link custom-link" href="/#registration-section">Registration</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link custom-link" href="./speakers.html">Speakers</a>
@@ -45,7 +45,10 @@
                     <a class="nav-link custom-link" href="./committee.html">Committee</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-link" href="#sponsors-section">Sponsors</a>
+                    <a class="nav-link custom-link" href="/#workshop-schedule-section">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link custom-link" href="/#sponsors-section">Sponsors</a>
                 </li>
                 <!-- <?php
                 if (isset($_SESSION["isLoggedIn"]) && $_SESSION["isLoggedIn"]) {
@@ -176,8 +179,8 @@ Approaches and Research Horizons
                     <div class="section">
                         <div class="title">Registration Fee (Including 18% GST)</div>
 
-                        <button class="toggle-btn" data-target="#workshopTable">Show Workshop Fees</button>
-                        <div id="workshopTable" class="table-wrapper hidden"></div>
+                        <!-- <button class="toggle-btn" data-target="#workshopTable">Show Workshop Fees</button>
+                        <div id="workshopTable" class="table-wrapper hidden"></div> -->
 
                         <button class="toggle-btn" data-target="#conferenceTable">Show Conference Fees</button>
                         <div id="conferenceTable" class="table-wrapper hidden"></div>
@@ -186,7 +189,7 @@ Approaches and Research Horizons
                             Conference Fees</button>
                         <div id="workshopConfTable" class="table-wrapper hidden"></div>
 
-                        <p class="sub-heading">DAU Faculty/Students: <span id="srmRate"></span></p>
+                        <!-- <p class="sub-heading">DAU Faculty/Students: <span id="srmRate"></span></p> -->
                     </div>
 
                     <div class="section">
@@ -307,7 +310,14 @@ Approaches and Research Horizons
         <div class="container my-5" id="workshop-schedule-section">
             <div class="shadow-lg p-4 mb-5 bg-white rounded">
                 <h2 class="text-center mb-4">Workshop Schedule</h2>
-                <div id="schedule-container" class="row gy-4"></div>
+                <div class="row gy-4 schedule-card p-3 h-100">
+                    <p class="schedule-day mb-3">
+
+
+                    </p>
+                    TBA
+                </div>
+                <!-- <div id="schedule-container" class="row gy-4"></div> -->
             </div>
         </div>
 

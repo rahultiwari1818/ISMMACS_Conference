@@ -1,54 +1,57 @@
 {
-  "RegistrationFee(Including 18% GST)": {
+
+  "RegistrationFee (Including 18% GST)": {
     "Category": [
-      "Domestic PhD/PDFs",
-      "Faculty and others",
-      "Overseas"
+      "Students (UG/ PG/ Research Scholars)",
+      "Faculty/Post Doc",
+      "Industrialists"
     ],
-    "Workshop": {
-      "Online": {
-        "Domestic PhD/PDFs": "INR 2000",
-        "Faculty and others": "INR 2500",
-        "Overseas": "USD 100"
-      },
-      "Onsite": {
-        "Domestic PhD/PDFs": "INR 2500",
-        "Faculty and others": "INR 3000",
-        "Overseas": "USD 125"
-      }
-    },
     "Conference": {
-      "Online": {
-        "Domestic PhD/PDFs": "INR 2000",
-        "Faculty and others": "INR 2500",
-        "Overseas": "USD 100"
+      "INDIAN": {
+        "NON-ISMMACS Member": {
+          "Students (UG/ PG/ Research Scholars)": "Rs 5900",
+          "Faculty/Post Doc": "Rs 8260",
+          "Industrialists": "Rs 11800"
+        },
+        "ISMMACS Member": {
+          "Students (UG/ PG/ Research Scholars)": "Rs 5310",
+          "Faculty/Post Doc": "Rs 7670",
+          "Industrialists": "Rs 11210"
+        }
       },
-      "Onsite": {
-        "Domestic PhD/PDFs": "INR 2500",
-        "Faculty and others": "INR 3000",
-        "Overseas": "USD 125"
+      "NRI": {
+        "NON-ISMMACS Member": {
+          "Students (UG/ PG/ Research Scholars)": "150 USD",
+          "Faculty/Post Doc": "250 USD",
+          "Industrialists": "300 USD"
+        }
       }
     },
-    "Workshop + Conference": {
-      "Online": {
-        "Domestic PhD/PDFs": "INR 4000",
-        "Faculty and others": "INR 4500",
-        "Overseas": "USD 175"
+    "Conference and Workshop": {
+      "INDIAN": {
+        "NON-ISMMACS Member": {
+          "Students (UG/ PG/ Research Scholars)": "Rs 7080",
+          "Faculty/Post Doc": "Rs 9440",
+          "Industrialists": "Rs 12980"
+        },
+        "ISMMACS Member": {
+          "Students (UG/ PG/ Research Scholars)": "Rs 6490",
+          "Faculty/Post Doc": "Rs 8850",
+          "Industrialists": "Rs 12390"
+        }
       },
-      "Onsite": {
-        "Domestic PhD/PDFs": "INR 5000",
-        "Faculty and others": "INR 5500",
-        "Overseas": "USD 225"
+      "NRI": {
+        "NON-ISMMACS Member": {
+          "Students (UG/ PG/ Research Scholars)": "200 USD",
+          "Faculty/Post Doc": "300 USD",
+          "Industrialists": "350 USD"
+        }
       }
     }
   },
+
   "Notes": [
-    "Accommodation charges extra: INR 3000 in DAIICT Hotel (per night on a sharing basis).",
-    "The registration fee includes tea/coffee, working lunch/dinner, conference kit, and possible excursion trip.",
-    "Booking for paid accommodation in nearby hotels can be made on a subsidized rate for outstation conference participants on payment basis.",
-    "Outstation PhD and PDF participants can be given travel support as per government norms subject to availability of funds.",
-    "It is advised that the participants bring their laptops for hands-on practice on deep learning codes for the workshop. Free Wi-Fi will be provided.",
-    "Life members of Indian Society for Mathematical Modelling and Computer Simulation (ISMMACS) will get 15% discount in the registration fee.",
-    "For virtual participation (conference only), Indian participants need to pay only INR 1000. E-certificate will be provided to all online participants."
+    "The regular registration fee includes shared accommodation, tea, snacks, breakfast, lunch, dinner and a certificate.",
+    "Registration fees, once paid, will not be refunded."
   ]
 }

@@ -9,70 +9,47 @@
   </head>
 
   <body>
-    <nav
-      class="navbar navbar-expand-lg bg-white shadow-sm sticky-top py-3 custom-navbar"
-    >
-      <div class="container d-flex justify-content-between align-items-center">
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top py-3 custom-navbar">
+    <div class="container d-flex justify-content-between align-items-center">
         <!-- Logo -->
-        <a
-          class="navbar-brand d-flex align-items-center"
-          href="https://www.daiict.ac.in/"
-        >
-          <img
-            src="./assets/dau-logo.jpg"
-            alt="logo"
-            height="60"
-            class="me-2"
-          />
-          <div class="logo-text d-none d-md-block">
-            <h6 class="mb-0 fw-bold text-primary">
-              Dhirubhai Ambani University
-            </h6>
-          </div>
+        <a class="navbar-brand d-flex align-items-center" href="https://www.daiict.ac.in/">
+            <img src="./assets/dau-logo.jpg" alt="logo" height="60" class="me-2">
+            <div class="logo-text d-none d-md-block">
+                <h6 class="mb-0 fw-bold text-primary">Dhirubhai Ambani University</h6>
+            </div>
         </a>
 
         <!-- Toggler -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarContent"
-        >
-          <div class="hamburger-lines navbar-toggler-icon">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-          </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <div class="hamburger-lines navbar-toggler-icon">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
         </button>
 
         <!-- Navbar Links -->
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarContent"
-        >
-          <ul class="navbar-nav align-items-center gap-3">
-            <li class="nav-item">
-              <a class="nav-link custom-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link custom-link" href="#registration-section"
-                >Registration</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link custom-link" href="/speakers.html">Speakers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link custom-link" href="/committee.html"
-                >Committee</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link custom-link" href="#sponsors-section"
-                >Sponsors</a
-              >
-            </li>
-            <!-- <?php
+        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+            <ul class="navbar-nav align-items-center gap-3">
+                <li class="nav-item">
+                    <a class="nav-link custom-link" href="./">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link custom-link" href="/#registration-section">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link custom-link" href="./speakers.html">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link custom-link" href="./committee.html">Committee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link custom-link" href="/#workshop-schedule-section">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link custom-link" href="/#sponsors-section">Sponsors</a>
+                </li>
+                <!-- <?php
                 if (isset($_SESSION["isLoggedIn"]) && $_SESSION["isLoggedIn"]) {
                     echo '
             <li class="nav-item">
@@ -90,10 +67,10 @@
           ';
                 }
                 ?> -->
-          </ul>
+            </ul>
         </div>
-      </div>
-    </nav>
+    </div>
+</nav>
     <main class="shadow-lg p-3 bg-white rounded">
       <div class="container my-5" id="committee-section">
         <div class="shadow-lg p-3 mb-5 bg-white rounded">
