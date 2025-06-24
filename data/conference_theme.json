@@ -11,6 +11,7 @@
   },
   "conferenceThemes": {
     "title": "Conference Themes",
+    "description" :"The conference will cover a variety of topics, including but not limited to:",
     "topics": [
       "Analytical and Numerical Methods for ODEs and PDEs",
       "Mathematical Modeling and Computer Simulations",
@@ -25,7 +26,7 @@
   },
   "workshopTheme": {
     "title": "Workshop Theme",
-    "description": "Mathematical modeling and dynamical systems have become essential tools for understanding complex phenomena across disciplines such as physics, biology, economics, and engineering. With the growth of computational techniques and increased data availability, the synergy between modeling, simulation, and real-world problem-solving has deepened.\n\nThis workshop is designed to introduce young researchers, doctoral students, and early-career faculty to the foundational and computational aspects of dynamical systems. The aim is to equip participants with knowledge of current methodologies, emerging trends, and research opportunities.",
+    "description": "This workshop is designed to introduce young researchers, doctoral students, and early-career faculty to the foundational and computational aspects of dynamical systems. The aim is to equip participants with knowledge of current methodologies, emerging trends, and research opportunities.",
     "topics": [
       "Ordinary and Partial Differential Equations in Modeling",
       "Nonlinear Dynamical Systems",

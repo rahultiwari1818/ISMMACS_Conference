@@ -4,24 +4,25 @@ $(document).ready(function () {
   });
 
   //   --------------------------------------- About Section data fetching -----------------------------------------------
+          // <h2 class="workshop-title text-center mb-4">${data.title}</h2>
+$.getJSON("./data/about_workshop.json", function (data) {
+  const content = `
+    <div class="about-workshop-content p-4">
+      <p class="workshop-description mb-4">
+        ${data.description.replace(/\n/g, "<br><br>")}
+      </p>
 
-  $.getJSON("./data/about_workshop.json", function (data) {
-    const content = `
-        <div class="about-workshop-content p-4">
-          <h2 class="workshop-title text-center mb-4">${data.title}</h2>
-          <p class="workshop-description mb-4">${data.description.replace(
-            /\n/g,
-            "<br><br>"
-          )}</p>
-          <h4 class="text-dark mb-3"></h4>
-          <ul class="workshop-modules list-group list-group-flush">
-            ${data.modules
-              .map((module) => `<li class="list-group-item">${module}</li>`)
-              .join("")}
-          </ul>
-        </div>`;
-    $("#about-workshop-section").html(content);
-  });
+      <h4 class="workshop-title mt-4">Highlights of the Conference:</h4>
+      <ul class="highlight-list mb-4">
+        ${data.highlights
+          .map((point) => `<li class="highlight-item">• ${point}</li>`)
+          .join("")}
+      </ul>
+
+      
+    </div>`;
+  $("#about-workshop-section").html(content);
+});
 
   // -------------------------------------------------- COnference Theme Section -------------------------------------------------------
 
@@ -37,6 +38,8 @@ $(document).ready(function () {
 
     // Conference Theme
     let conferenceHTML = `<h3>${data.conferenceThemes.title}</h3><ul>`;
+        conferenceHTML += `<p>${data.conferenceThemes.description}</p><ul>`;
+
     data.conferenceThemes.topics.forEach((topic) => {
       conferenceHTML += `<li>${topic}</li>`;
     });
@@ -77,31 +80,65 @@ $(document).ready(function () {
 
   //   -------------------------------------------------- Workshop Schedule Section ----------------------------------------------------------------------------
 
+  // $.getJSON("./data/workshop_schedule.json", function (data) {
+  //   let scheduleHTML = "";
+  //   data.schedule.forEach((dayObj, index) => {
+  //     scheduleHTML += `
+  //         <div class="col-md-6">
+  //           <div class="schedule-card p-3 h-100">
+  //             <h5 class="schedule-day mb-3">${dayObj.day}</h5>
+  //             <ul class="list-group list-group-flush">
+  //               ${dayObj.sessions
+  //                 .map(
+  //                   (session) => `
+  //                 <li class="list-group-item">
+  //                   <strong>${session.time}</strong><br/>
+  //                   ${session.topic}
+  //                 </li>
+  //               `
+  //                 )
+  //                 .join("")}
+  //             </ul>
+  //           </div>
+  //         </div>
+  //       `;
+  //   });
+  //   $("#schedule-container").html(scheduleHTML);
+  // });
+
+
   $.getJSON("./data/workshop_schedule.json", function (data) {
-    let scheduleHTML = "";
-    data.schedule.forEach((dayObj, index) => {
-      scheduleHTML += `
-          <div class="col-md-6">
-            <div class="schedule-card p-3 h-100">
-              <h5 class="schedule-day mb-3">${dayObj.day}</h5>
-              <ul class="list-group list-group-flush">
-                ${dayObj.sessions
-                  .map(
-                    (session) => `
-                  <li class="list-group-item">
-                    <strong>${session.time}</strong><br/>
-                    ${session.topic}
-                  </li>
-                `
-                  )
-                  .join("")}
-              </ul>
-            </div>
-          </div>
-        `;
-    });
-    $("#schedule-container").html(scheduleHTML);
+  let scheduleHTML = "";
+
+  // Override all schedule data with TBA
+  const tbaDays = ["Day 1", "Day 2", "Day 3"];
+  tbaDays.forEach((day) => {
+    scheduleHTML += `
+      <div class="col-md-6">
+        <div class="schedule-card p-3 h-100">
+          <h5 class="schedule-day mb-3">${day} (To Be Announced)</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <strong>TBA</strong><br/>
+              TBA
+            </li>
+            <li class="list-group-item">
+              <strong>TBA</strong><br/>
+              TBA
+            </li>
+            <li class="list-group-item">
+              <strong>TBA</strong><br/>
+              TBA
+            </li>
+          </ul>
+        </div>
+      </div>
+    `;
   });
+
+  $("#schedule-container").html(scheduleHTML);
+});
+
 
   // ---------------------------------- Intended Audience Section -------------------------------------------------------
 

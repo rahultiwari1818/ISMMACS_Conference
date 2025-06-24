@@ -192,6 +192,20 @@ fieldset {
   font-weight: 500;
 }
 
+.highlight-list {
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.highlight-item {
+  font-size: 1.05rem;
+  color: #2d3436;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+  list-style: disc;
+}
+
+
 /* -------------------------------------------------------------------- Conference Theme ------------------------------------------------- */
 
 .theme-box {
