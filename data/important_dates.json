@@ -3,19 +3,23 @@
   "dates": [
     {
       "event": "Last date of Abstract Submission",
-      "date": "30th June 2025"
+      "date": "30 September 2025"
     },
     {
       "event": "Notification of Abstract Acceptance",
-      "date": "10th July 2025"
+      "date": "07 October 2025"
     },
     {
       "event": "Last date of Registration",
-      "date": "20th July 2025"
+      "date": "07 November 2025"
     },
     {
       "event": "Conference Dates",
-      "date": "2nd – 4th August 2025"
+      "date": "08 - 10, December  2025"
+    },
+    {
+      "event":"Pre-conference workshop date",
+      "date":"07 December 2025"
     }
   ]
 }

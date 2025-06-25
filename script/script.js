@@ -199,20 +199,26 @@ $(document).ready(function () {
         speaker.speakerType === "fixed" ? "tag-fixed" : "tag-tentative";
 
       const interests = speaker.researchInterests || [];
-      const interestsPreview = interests
-        .slice(0, 3)
-        .map((i) => `<li>${i}</li>`)
-        .join("");
+      // const interestsPreview = interests
+      //   .slice(0, 3)
+      //   .map((i) => `<li>${i}</li>`)
+      //   .join("");
 
-      const interestsHidden = interests
-        .slice(3)
-        .map((i) => `<li class="hidden-interest hidden-${index}">${i}</li>`)
-        .join("");
+      // const interestsHidden = interests
+      //   .slice(3)
+      //   .map((i) => `<li class="hidden-interest hidden-${index}">${i}</li>`)
+      //   .join("");
 
-      const showMoreBtn =
-        interests.length > 3
-          ? `<button class="show-more" onclick="event.stopPropagation(); toggleMore(this, ${index})">More</button>`
-          : "";
+      // const showMoreBtn =
+      //   interests.length > 3
+      //     ? `<button class="show-more" onclick="event.stopPropagation(); toggleMore(this, ${index})">More</button>`
+      //     : "";
+
+          // <ul class="speaker-interests">
+          //   ${interestsPreview}
+          //   ${interestsHidden}
+          // </ul>
+          // ${showMoreBtn}
 
       const card = `
       <div class="speaker-card" data-link="${speaker.link}">
@@ -220,11 +226,7 @@ $(document).ready(function () {
         <div class="speaker-body">
           <div class="speaker-name">${speaker.name}</div>
           <div class="speaker-affiliation">${speaker.affiliation}</div>
-          <ul class="speaker-interests">
-            ${interestsPreview}
-            ${interestsHidden}
-          </ul>
-          ${showMoreBtn}
+      
           <div class="speaker-tag ${tagClass}">${speaker.speakerType}</div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 
+
 {
   "speakers": [
     {
@@ -12,7 +13,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Syed Abbas.jpg",
       "link": "https://faculty.iitmandi.ac.in/~abbas/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "R P Aggarwal",
@@ -23,9 +24,9 @@
         "Inequalities",
         "Fixed Point Theorems"
       ],
-      "image": "./assets/speakers_images/Prof. R P Aggarwal.jpg",
+      "image": "./assets/speakers_images/Prof. R P Aggarwal.JPG",
       "link": "https://www.scirp.org/Journal/detailedInforofeditorialboard?personid=8574",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Vivek K Aggarwal",
@@ -33,7 +34,7 @@
       "researchInterInterests": [],
       "image": "./assets/speakers_images/Dr Vivek K Aggarwal.jpeg",
       "link": "#",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Rajan Arora",
@@ -45,8 +46,9 @@
       ],
       "image": "./assets/speakers_images/Dr Rajan Arora.jpeg",
       "link": "https://iitr.ac.in/Departments/Applied%20Mathematics%20and%20Scientific%20Computing%20Department/People/Faculty/400119.html",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+
     {
       "name": "Abdon Atangana",
       "affiliation": "Professor, University of The Free State, South Africa",
@@ -55,7 +57,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Abdon Atangana.jpg",
       "link": "https://www.ufs.ac.za/media/leading-researchers/prof-abdon-atangana",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Ashish Awasthi",
@@ -65,8 +67,9 @@
       ],
       "image": "./assets/speakers_images/Dr Ashish Awasthi.jpeg",
       "link": "https://nitc.ac.in/department/mathematics/faculty-and-staff/faculty/de07c1f3-62de-4382-b954-9bdeb0c593ed",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+
     {
       "name": "Biswaroop Biswas",
       "affiliation": "Assistant Professor, Mahindra University",
@@ -77,7 +80,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Biswaroop Biswas.webp",
       "link": "https://www.mahindrauniversity.edu.in/faculty/biswarup-biswas/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Peeyush Chandra",
@@ -92,7 +95,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Peeyush Chandra.jpg",
       "link": "https://home.iitk.ac.in/~peeyush/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Geetanjali Chattopadhyay",
@@ -105,7 +108,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Geetanjali Chattopadhyay.png",
       "link": "https://www.mnit.ac.in/dept_math/profile?fid=RqqO",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Sumita Dahiya",
@@ -113,7 +116,7 @@
       "researchInterests": [],
       "image": "./assets/speakers_images/Dr. Sumita Dahiya.jpg",
       "link": "#",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Jyotiska Datta",
@@ -125,8 +128,9 @@
       ],
       "image": "./assets/speakers_images/Dr Jyotiska Datta.jpeg",
       "link": "https://www.cuo.ac.in/PHOTO_GALLARY/StaffCV/CV_Jyotiska_Datta_Mathematics.pdf",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+
     {
       "name": "Shruti Dubey",
       "affiliation": "Professor, IIT Madras",
@@ -137,7 +141,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Shruti Dubey.jpg",
       "link": "https://math.iitm.ac.in/innerfaculty.php?fname=Shruti%20Dubey",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Ritesh Kumar Dubey",
@@ -148,7 +152,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Ritesh Kumar Dubey.jpg",
       "link": "https://www.srmist.edu.in/faculty/dr-ritesh-kumar-dubey/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Sharad Dwivedi",
@@ -159,8 +163,9 @@
       ],
       "image": "./assets/speakers_images/Dr. Sharad Dwivedi.jpg",
       "link": "https://nitandhra.ac.in/dept/sos/20171",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+
     {
       "name": "Sukhendu Ghosh",
       "affiliation": "Associate Professor, IIT Jodhpur",
@@ -172,7 +177,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Sukhendu Ghosh.jpg",
       "link": "https://research.iitj.ac.in/researcher/sukhendu-ghosh",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Bapan Ghosh",
@@ -184,7 +189,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Bapan Ghosh.jpg",
       "link": "https://iiti.irins.org/profile/113211",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "G D V Gowda",
@@ -199,7 +204,7 @@
       ],
       "image": "./assets/speakers_images/Prof. G D V Gowda.png",
       "link": "https://www.mahindrauniversity.edu.in/faculty/veerappa-gowda-g-d/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Vikas Gupta",
@@ -220,7 +225,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Vikas Gupta.jpg",
       "link": "https://lnmiit.ac.in/faculty-list/dr-vikas-gupta/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Mahipal Jetta",
@@ -231,7 +236,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Mahipal Jetta.webp",
       "link": "https://www.mahindrauniversity.edu.in/faculty/mahipal-j/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Brajesh Jha",
@@ -243,7 +248,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Brajesh Jha.jpg",
       "link": "https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=brajesh.jha",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Anuradha Jha",
@@ -254,8 +259,9 @@
       ],
       "image": "./assets/speakers_images/Dr Anuradha Jha.jpg",
       "link": "https://www.iiitg.ac.in/science-and-mathemetics/anuradha-jha",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+
     {
       "name": "Kadalbajoo",
       "affiliation": "Distinguished Professor, LNMIIT",
@@ -271,7 +277,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Kadalbajoo.jpg",
       "link": "https://lnmiit.ac.in/faculty-list/prof-mohan-krishen-kadalbajoo/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Saurabh Katiyar",
@@ -286,8 +292,9 @@
       ],
       "image": "./assets/speakers_images/Dr Saurabh Katiyar.jpeg",
       "link": "https://departments.nitj.ac.in/dept/ma/Faculty/64b7664b70a199ae57d48c64",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+ 
     {
       "name": "B.V. Rathish Kumar",
       "affiliation": "Professor, IIT Kanpur",
@@ -311,7 +318,7 @@
       ],
       "image": "./assets/speakers_images/Prof. B.V. Rathish Kumar.jpg",
       "link": "https://www.iitk.ac.in/new/rathish-kumar-b-v",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Sanjeev Kumar",
@@ -328,7 +335,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Sanjeev Kumar.jpeg",
       "link": "https://www.iitr.ac.in/~MA/Malikfma",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Nitu Kumari",
@@ -342,8 +349,9 @@
       ],
       "image": "./assets/speakers_images/Prof Nitu Kumari, IIT Mandi.jpg",
       "link": "https://faculty.iitmandi.ac.in/~nitu/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+  
     {
       "name": "Lakshman Mahto",
       "affiliation": "BITS Mesra",
@@ -355,7 +363,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Lakshman Mahto.png",
       "link": "https://bitmesra.ac.in/Show_profile/477474392F50466E4E4D614734612F566541375959673D3D",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Muslim Malik",
@@ -369,7 +377,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Muslim Malik.png",
       "link": "https://faculty.iitmandi.ac.in/~muslim/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Sumit Malik",
@@ -378,11 +386,11 @@
         "Computational Fluid Dynamics",
         "Heat transfer and entropy generation",
         "Ventilation problems",
-        "Drop deformation in viscous flows"
+        "p deformation in viscous flows"
       ],
       "image": "./assets/speakers_images/Dr. Sumit Malik.webp",
       "link": "https://www.bennett.edu.in/faculties/sumit-malik/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Indira Mishra",
@@ -396,8 +404,9 @@
       ],
       "image": "./assets/speakers_images/Dr Indira Mishra.webp",
       "link": "https://iiitbhopal.ac.in/Media/Faculty/10036/Resume.pdf",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+
     {
       "name": "AK Misra",
       "affiliation": "Professor, BHU",
@@ -411,8 +420,9 @@
       ],
       "image": "./assets/speakers_images/Prof AK Misra.jpeg",
       "link": "https://bhu.ac.in/Site/FacultyProfile/1_156?FA000891",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+ 
     {
       "name": "Manil T Mohan",
       "affiliation": "IIT Roorkee",
@@ -426,8 +436,9 @@
       ],
       "image": "./assets/speakers_images/Dr Manil T Mohan.jpg",
       "link": "https://www.iitr.ac.in/~MA/Manil_T__Mohan",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+
     {
       "name": "Anushaya Mohapatra",
       "affiliation": "BITS Pilani Goa",
@@ -437,7 +448,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Anushaya Mohapatra.webp",
       "link": "https://www.bits-pilani.ac.in/goa/anushaya-chittaranjan-mohapatra/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "A K Nandakumaran",
@@ -447,7 +458,7 @@
       ],
       "image": "./assets/speakers_images/Prof. A K Nandakumaran.jpg",
       "link": "https://math.iisc.ac.in/~nands/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "S Natesan",
@@ -465,7 +476,7 @@
       ],
       "image": "./assets/speakers_images/Prof. S Natesan.jpg",
       "link": "https://www.iitg.ac.in/natesan/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "C S Nishad",
@@ -479,7 +490,7 @@
       ],
       "image": "./assets/speakers_images/Dr. C S Nishad.jpeg",
       "link": "https://www.iiitnr.ac.in/content/chandra-shekhar-nishad",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Rajesh K Pandey",
@@ -493,7 +504,7 @@
       ],
       "image": "./assets/speakers_images/Prof Rajesh K Pandey.jpg",
       "link": "https://iitbhu.ac.in/dept/mat/people/rkpandeymat",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Ambuj Pandey",
@@ -503,7 +514,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Ambuj Pandey.jpg",
       "link": "https://maths.iiserb.ac.in/faculty_details2/MTUwNg==",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Prashant K Pandey",
@@ -516,7 +527,7 @@
       ],
       "image": "./assets/speakers_images/Dr Prashant K Pandey.jpg",
       "link": "https://researchid.co/spandey",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Kamna Porwal",
@@ -527,7 +538,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Kamna Porwal.jpeg",
       "link": "https://iitd.irins.org/profile/60766#personal_information_panel",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "S D Purohit",
@@ -542,8 +553,9 @@
       ],
       "image": "./assets/speakers_images/Dr S D Purohit.jpeg",
       "link": "https://rtu.ac.in/index/viewdata.php?page=Dr-Sunil-Dutt-Purohit-Profile157",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+
     {
       "name": "Pratima Rai",
       "affiliation": "Assistant Professor, Delhi University",
@@ -554,8 +566,9 @@
       ],
       "image": "./assets/speakers_images/Dr Pratima Rai.jpeg",
       "link": "https://people.samarth.edu.in/index.php/profile/user/index/DU/ngr",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+
     {
       "name": "G P Rajashekhar",
       "affiliation": "Professor, IIT Kharagpur",
@@ -568,7 +581,7 @@
       ],
       "image": "./assets/speakers_images/Prof. G P Rajashekhar.png",
       "link": "https://www.iitkgp.ac.in/department/MA/faculty/ma-rajas",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Rajesh",
@@ -581,8 +594,9 @@
       ],
       "image": "./assets/speakers_images/Dr Rajesh.webp",
       "link": "https://www.bits-pilani.ac.in/pilani/rajeshkr/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+
     {
       "name": "Akmal Raza",
       "affiliation": "BIT Mesra",
@@ -591,7 +605,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Akmal Raza.jpg",
       "link": "https://bitmesra.ac.in/Show_profile/73564E523350412B47414A76633863746172643178673D3D",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Manoj Sahni",
@@ -604,7 +618,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Manoj Sahni.jpg",
       "link": "https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=manoj.sahni",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "C S Sastry",
@@ -618,7 +632,7 @@
       ],
       "image": "./assets/speakers_images/Prof. C S Sastry.jpg",
       "link": "https://iith.ac.in/math/csastry/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Chirala Satyanarayana",
@@ -630,7 +644,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Chirala Satyanarayana.webp",
       "link": "https://www.mahindrauniversity.edu.in/faculty/chirala-satyanarayana/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Navneet Sharma",
@@ -643,8 +657,9 @@
       ],
       "image": "./assets/speakers_images/Dr Navneet Sharma.jpeg",
       "link": "https://gsv.ac.in/faculties/navneet-lal-sharma/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+ 
     {
       "name": "Anurag Shukla",
       "affiliation": "Assistant Professor, REC Kannauj",
@@ -656,8 +671,9 @@
       ],
       "image": "./assets/speakers_images/Dr Anurag Shukla.jpg",
       "link": "https://reck.ac.in/ash-faculty/dr-anurag-shukla/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+
     {
       "name": "Sanjeev Singh",
       "affiliation": "Associate Professor, IIT Indore",
@@ -667,7 +683,7 @@
       ],
       "image": "./assets/speakers_images/Dr Sanjeev Singh.jpg",
       "link": "https://people.iiti.ac.in/~snjvsngh/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Alpesh Singh",
@@ -678,7 +694,7 @@
       ],
       "image": "./assets/speakers_images/Dr Alpesh Singh.jpg",
       "link": "https://allduniv.ac.in/faculties/mathematics",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Ankur Singh",
@@ -689,8 +705,10 @@
       ],
       "image": "./assets/speakers_images/Dr. Ankur Singh.jpg",
       "link": "https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=ankur.singh",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+ 
+   
     {
       "name": "Akhil Srivastav",
       "affiliation": "Researcher, KU Leuven",
@@ -702,8 +720,9 @@
       ],
       "image": "./assets/speakers_images/Dr Akhil Srivastav.jpeg",
       "link": "https://www.kuleuven.be/wieiswie/en/person/00178555",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
+    
     {
       "name": "Parshant Kumar Srivastava",
       "affiliation": "Associate Professor, IIT Patna",
@@ -715,7 +734,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Prashant Kumar Srivastava.jpeg",
       "link": "https://www.iitp.ac.in/people-dept-menu/faculty/260:view-profile-57",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Nikhil Srivastava",
@@ -728,7 +747,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Nikhil Srivastava.jpeg",
       "link": "https://www.nitmz.ac.in/Department_FacultyProfile.aspx?nDeptID=eaaiie",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Sudhakar",
@@ -740,7 +759,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Sudhakar.jpg",
       "link": "https://iitram.ac.in/empdetail/2018240",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "S Sundar",
@@ -751,7 +770,7 @@
       ],
       "image": "./assets/speakers_images/Prof. S Sundar.jpg",
       "link": "https://home.iitm.ac.in/slnt/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Awanish Tiwari",
@@ -762,7 +781,7 @@
       ],
       "image": "./assets/speakers_images/Dr Awanish Tiwari.jpeg",
       "link": "https://iiitbhopal.ac.in/Document/ff/AWANISH.html",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Mukesh Tiwari",
@@ -773,7 +792,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Mukesh Tiwari.jpeg",
       "link": "https://www.daiict.ac.in/faculty-details/261",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Arun K Tripathy",
@@ -781,7 +800,7 @@
       "researchInterests": [],
       "image": "./assets/speakers_images/Prof Arun K Tripathy.jpeg",
       "link": "#",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Jagmohan Tyagi",
@@ -792,7 +811,7 @@
       ],
       "image": "./assets/speakers_images/Prof. Jagmohan Tyagi.jpg",
       "link": "https://iitgn.ac.in/faculty/maths/fac-jagmohan",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Umeshkanta",
@@ -805,7 +824,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Umeshkanta.png",
       "link": "https://www.bennett.edu.in/faculties/dr-thounaojam-umeshkanta-singh/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Ranjit Upadhyay",
@@ -825,7 +844,7 @@
       ],
       "image": "./assets/speakers_images/Prof Ranjit Upadhyay.png",
       "link": "https://www.iitism.ac.in/faculty-details?faculty=ranjit",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "V. Vijayakumar",
@@ -838,7 +857,7 @@
       ],
       "image": "./assets/speakers_images/Dr. V. Vijayakumar.jpg",
       "link": "https://vitdirectory.vit.ac.in/page/faculty/16162",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Vishwanathan",
@@ -851,7 +870,7 @@
       ],
       "image": "./assets/speakers_images/Dr. Vishwanathan.jpeg",
       "link": "https://web.iitd.ac.in/~viswa/",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Sanjay Yadav",
@@ -859,7 +878,7 @@
       "researchInterests": [],
       "image": "./assets/speakers_images/Dr Sanjay Yadav.webp",
       "link": "https://www.alliance.edu.in/faculty/dr-sanjay-yadav",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Jai Prakash Yadav",
@@ -873,7 +892,7 @@
       ],
       "image": "./assets/speakers_images/Dr Jai Prakash Yadav.jpeg",
       "link": "#",
-      "speakerType": "fixed"
+      "speakerType": "Confirmed"
     }
   ]
 }
