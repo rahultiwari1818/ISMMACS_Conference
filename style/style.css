@@ -374,8 +374,8 @@ fieldset {
 
 /* ------------------------- committee card ---------------------------------------------- */
 .member-img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #007bff;
@@ -416,7 +416,7 @@ fieldset {
 /* ----------------------------------- Speaker ------------------------------------------------------------------ */
 .speaker-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2.5rem;
   padding: 3rem 2rem;
   background: #f8fafc;
@@ -441,8 +441,8 @@ fieldset {
 
 .speaker-image {
   width: 100%;
-  height: 400px;
-  object-fit: cover;
+  height: 200px;
+  object-fit: contain;
   border-bottom: 2px solid #cbd5e1;
 }
 
