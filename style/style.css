@@ -858,3 +858,153 @@ table.custom-table tr:hover {
 .footer-custom a:hover {
   text-decoration: underline;
 }
+
+
+/* ---------------------------------------------------------- Call for Abstract Page ------------------------------------------ */
+
+.call-abstract-section {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fdfdfd;
+  border-left: 5px solid #007bff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.call-abstract-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.call-abstract-description {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.call-abstract-topics,
+.call-abstract-guidelines {
+  margin-bottom: 1.5rem;
+}
+
+.call-abstract-topics li,
+.call-abstract-guidelines li {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+.call-abstract-guidelines-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  color: #007bff;
+}
+
+.call-abstract-closing {
+  font-size: 1.05rem;
+  color: #555;
+  margin-top: 1.5rem;
+}
+
+/* ---------------------------------------------- Abstract Form --------------------------------------------- */
+
+.abstract-form-card {
+  background-color: #fdfdfd;
+  border-left: 5px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+#abstractForm label {
+  font-weight: 500;
+}
+
+#abstractForm .form-control,
+#abstractForm .form-select {
+  border-radius: 5px;
+}
+
+#abstractForm button {
+  transition: all 0.3s ease;
+}
+
+#abstractForm button:hover {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.modal-content {
+  border-radius: 8px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.modal-footer button {
+  transition: all 0.3s ease;
+}
+
+.modal-footer button:hover {
+  opacity: 0.9;
+}
+
+#customAlert {
+  transition: opacity 0.5s ease;
+}
+
+/* ------------------------------------------------------------------------------------ Symposium ---------------------------------------------------- */
+
+.symposium-section {
+  font-family: "Segoe UI", sans-serif;
+  border-left: 4px solid #007bff;
+  background: #fdfdfd;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.symposium-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.symposium-intro {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.symposium-subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.symposium-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.symposium-list li {
+  margin-bottom: 0.7rem;
+  font-size: 1.05rem;
+  color: #2d3436;
+  line-height: 1.6;
+}
+
+.symposium-note {
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 0.8rem;
+  border-radius: 8px;
+  color: #856404;
+  font-size: 1.02rem;
+}

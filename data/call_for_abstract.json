@@ -1,0 +1,22 @@
+{
+  "title": "Call for Abstracts",
+  "description": "We are pleased to invite submissions of abstracts for our upcoming conference. This event provides a valuable platform for researchers, academics, and professionals to share their insights, findings, and innovations across various fields.",
+  "topics": [
+    "Analytical and Numerical Methods for ODEs and PDEs",
+    "Mathematical Modeling and Computer Simulations",
+    "Computational Fluid Dynamics",
+    "Controllability, Observability, and Stability of Differential Equations",
+    "Scientific Machine Learning and Applications",
+    "Fractional Differential Equations",
+    "Delay Differential Equations",
+    "Special Functions and Their Applications",
+    "Dynamical Systems and Chaos"
+  ],
+  "guidelinesTitle": "Submission Guidelines",
+  "guidelines": [
+    "Abstracts should be no longer than 300 words.",
+    "Please include the title of the paper, the names of the authors, and their affiliations.",
+    "Submissions should be made by 30 September 2025."
+  ],
+  "closingNote": "Selected abstracts will be presented at the conference, offering an excellent opportunity for discussion and networking. We look forward to your contributions and insights that will enrich our conference."
+}

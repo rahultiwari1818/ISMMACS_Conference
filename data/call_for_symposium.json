@@ -1,0 +1,19 @@
+{
+  "title": "Call for Symposium",
+  "intro": "Individuals interested in organizing symposia related to their areas of expertise and aligning with the conference theme are encouraged to submit proposals in MS Word/PDF format via email to the official conference email address: ismmacs2025@dau.ac.in",
+  "requirements": [
+    {
+      "label": "Title",
+      "description": "Suggest a title for the symposium or special session."
+    },
+    {
+      "label": "Abstract",
+      "description": "Provide a brief abstract of no more than 250 words that gives conference attendees an understanding of the topic and focus of the symposium/special session."
+    },
+    {
+      "label": "Organizers",
+      "description": "List the names of the organizers, along with their affiliations and contact details."
+    }
+  ],
+  "note": "Symposium/special session organizers are expected to independently coordinate a minimum of 10 presentations. Certificates will be awarded to all special session organizers. The confirmed list of speakers and participants needs to be submitted at least 20 days prior to the scheduled conference to make the necessary arrangements."
+}

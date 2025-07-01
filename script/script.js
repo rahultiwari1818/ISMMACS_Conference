@@ -214,11 +214,11 @@ $(document).ready(function () {
       //     ? `<button class="show-more" onclick="event.stopPropagation(); toggleMore(this, ${index})">More</button>`
       //     : "";
 
-          // <ul class="speaker-interests">
-          //   ${interestsPreview}
-          //   ${interestsHidden}
-          // </ul>
-          // ${showMoreBtn}
+      // <ul class="speaker-interests">
+      //   ${interestsPreview}
+      //   ${interestsHidden}
+      // </ul>
+      // ${showMoreBtn}
 
       const card = `
       <div class="speaker-card" data-link="${speaker.link}">
@@ -315,6 +315,139 @@ $(document).ready(function () {
       container.append(sponsorCard);
     });
   });
+
+  // ------------------------------------------------------------------ Call for Abstract Page --------------------------------------------------------------------------------
+
+  $.getJSON("./data/call_for_abstract.json", function (data) {
+    const content = `
+    <div class="call-abstract-section">
+      <h2 class="call-abstract-title">${data.title}</h2>
+      <p class="call-abstract-description">${data.description}</p>
+
+      <h4 class="call-abstract-guidelines-title">Topics include (but not limited to):</h4>
+      <ul class="call-abstract-topics">
+        ${data.topics.map((topic) => `<li>${topic}</li>`).join("")}
+      </ul>
+
+      <h4 class="call-abstract-guidelines-title">${data.guidelinesTitle}</h4>
+      <ul class="call-abstract-guidelines">
+        ${data.guidelines.map((item) => `<li>${item}</li>`).join("")}
+      </ul>
+
+      <p class="call-abstract-closing">${data.closingNote}</p>
+    </div>
+  `;
+    $("#call-for-abstract-container").html(content);
+  });
+
+  // ---------------------------------------------------- Call for Abstract Form ---------------------------------------------------------------------------------
+
+  $("input[name='uploadType']").change(function () {
+    if (this.value === "text") {
+      $("#textContentDiv").removeClass("d-none");
+      $("#pdfContentDiv").addClass("d-none");
+      $("#abstractFile").val("");
+    } else if (this.value === "pdf") {
+      $("#pdfContentDiv").removeClass("d-none");
+      $("#textContentDiv").addClass("d-none");
+      $("#abstractContent").val("");
+    }
+  });
+
+  $("#previewBtn").click(function () {
+    const fullName = $("#fullName").val().trim();
+    const title = $("#title").val();
+    const position = $("#position").val();
+    const affiliation = $("#affiliation").val().trim();
+    const abstractTitle = $("#abstractTitle").val().trim();
+    const coauthors = $("#coauthors").val().trim();
+    const uploadType = $("input[name='uploadType']:checked").val();
+    const content = $("#abstractContent").val().trim();
+    const file = $("#abstractFile")[0].files[0];
+
+    // Validation
+    if (
+      !fullName ||
+      !title ||
+      !position ||
+      !affiliation ||
+      !abstractTitle ||
+      !uploadType
+    ) {
+      showCustomAlert("Please fill all required fields.", "danger");
+      return;
+    }
+
+    if (uploadType === "text" && !content) {
+      showCustomAlert("Please provide abstract content text.", "danger");
+      return;
+    }
+    if (uploadType === "pdf" && !file) {
+      showCustomAlert("Please upload a PDF file.", "danger");
+      return;
+    }
+
+    let previewHtml = `
+      <p><strong>Full Name:</strong> ${fullName}</p>
+      <p><strong>Title:</strong> ${title}</p>
+      <p><strong>Position:</strong> ${position}</p>
+      <p><strong>Affiliation:</strong> ${affiliation}</p>
+      <p><strong>Abstract Title:</strong> ${abstractTitle}</p>
+      <p><strong>Co-authors:</strong> ${coauthors || "N/A"}</p>
+    `;
+
+    if (uploadType === "text") {
+      previewHtml += `<p><strong>Abstract Content:</strong><br>${content}</p>`;
+    } else if (uploadType === "pdf") {
+      previewHtml += `<p><strong>PDF File:</strong> ${file.name}</p>`;
+    }
+
+    $("#previewContent").html(previewHtml);
+    $("#previewModal").modal("show");
+  });
+
+  $("#confirmSubmit").click(function () {
+    $("#previewModal").modal("hide");
+    showCustomAlert(
+      "Your abstract has been successfully submitted!",
+      "success"
+    );
+    $("#abstractForm")[0].reset();
+    $("#textContentDiv, #pdfContentDiv").addClass("d-none");
+  });
+
+  function showCustomAlert(message, type = "success") {
+    $("#customAlert")
+      .removeClass("d-none alert-success alert-danger alert-warning")
+      .addClass("alert-" + type)
+      .html(message);
+    setTimeout(() => {
+      $("#customAlert").addClass("d-none");
+    }, 4000);
+  }
+
+
+
+  // ------------------------------------------------------------------------------------- Call for Symposium ----------------------------------------------
+
+  $.getJSON("./data/call_for_symposium.json", function (data) {
+  let html = `
+    <h2 class="symposium-title mb-3">${data.title}</h2>
+    <p class="symposium-intro mb-4">${data.intro}</p>
+    <h5 class="symposium-subtitle mb-2">The proposal should include the following information:</h5>
+    <ul class="symposium-list">
+  `;
+
+  data.requirements.forEach(req => {
+    html += `<li><strong>${req.label}:</strong> ${req.description}</li>`;
+  });
+
+  html += `</ul><p class="symposium-note mt-3"><strong>Note:</strong> ${data.note}</p>`;
+
+  $("#call-symposium-section").html(html);
+});
+
+
 });
 
 function toggleMore(button, index) {

@@ -1,5 +1,4 @@
 {
-
   "RegistrationFee (Including 18% GST)": {
     "Category": [
       "Students (UG/ PG/ Research Scholars)",
@@ -51,7 +50,8 @@
   },
 
   "Notes": [
-    "The regular registration fee includes shared accommodation, tea, snacks, breakfast, lunch, dinner and a certificate.",
+    "The regular registration fee includes shared accommodation in Hostels, tea, snacks, breakfast, lunch, dinner, and a certificate.",
+    "Virtual Participation is allowed only for the International Participants, subject to approval from the organizers.",
     "Registration fees, once paid, will not be refunded."
   ]
 }
