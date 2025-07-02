@@ -197,6 +197,7 @@ $(document).ready(function () {
     data.speakers.forEach((speaker, index) => {
       const tagClass =
         speaker.speakerType === "fixed" ? "tag-fixed" : "tag-tentative";
+        if(speaker?.hidden) return;
 
       const interests = speaker.researchInterests || [];
       // const interestsPreview = interests

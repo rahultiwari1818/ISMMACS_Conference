@@ -26,7 +26,7 @@
       ],
       "image": "./assets/speakers_images/Prof. R P Aggarwal.JPG",
       "link": "https://www.scirp.org/Journal/detailedInforofeditorialboard?personid=8574",
-      "speakerType": "Tentative"
+      "speakerType": "Confirmed"
     },
     {
       "name": "Vivek K Aggarwal",
@@ -204,7 +204,8 @@
       ],
       "image": "./assets/speakers_images/Prof. G D V Gowda.png",
       "link": "https://www.mahindrauniversity.edu.in/faculty/veerappa-gowda-g-d/",
-      "speakerType": "Confirmed"
+      "speakerType": "Confirmed",
+      "hidden" :true
     },
     {
       "name": "Vikas Gupta",
@@ -594,7 +595,8 @@
       ],
       "image": "./assets/speakers_images/Dr Rajesh.webp",
       "link": "https://www.bits-pilani.ac.in/pilani/rajeshkr/",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden":true
     },
 
     {
@@ -892,7 +894,8 @@
       ],
       "image": "./assets/speakers_images/Dr Jai Prakash Yadav.jpeg",
       "link": "#",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden":true
     }
   ]
 }
