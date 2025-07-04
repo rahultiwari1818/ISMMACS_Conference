@@ -1,5 +1,3 @@
-
-
 {
   "speakers": [
     {
@@ -34,7 +32,8 @@
       "researchInterInterests": [],
       "image": "./assets/speakers_images/Dr Vivek K Aggarwal.jpeg",
       "link": "#",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Rajan Arora",
@@ -46,15 +45,14 @@
       ],
       "image": "./assets/speakers_images/Dr Rajan Arora.jpeg",
       "link": "https://iitr.ac.in/Departments/Applied%20Mathematics%20and%20Scientific%20Computing%20Department/People/Faculty/400119.html",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
 
     {
       "name": "Abdon Atangana",
       "affiliation": "Professor, University of The Free State, South Africa",
-      "researchInterests": [
-        "Applied Mathematics"
-      ],
+      "researchInterests": ["Applied Mathematics"],
       "image": "./assets/speakers_images/Prof. Abdon Atangana.jpg",
       "link": "https://www.ufs.ac.za/media/leading-researchers/prof-abdon-atangana",
       "speakerType": "Confirmed"
@@ -62,12 +60,11 @@
     {
       "name": "Ashish Awasthi",
       "affiliation": "NIT Calicut",
-      "researchInterInterests": [
-        "Numerical Analysis"
-      ],
+      "researchInterInterests": ["Numerical Analysis"],
       "image": "./assets/speakers_images/Dr Ashish Awasthi.jpeg",
       "link": "https://nitc.ac.in/department/mathematics/faculty-and-staff/faculty/de07c1f3-62de-4382-b954-9bdeb0c593ed",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
 
     {
@@ -80,7 +77,8 @@
       ],
       "image": "./assets/speakers_images/Dr. Biswaroop Biswas.webp",
       "link": "https://www.mahindrauniversity.edu.in/faculty/biswarup-biswas/",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Peeyush Chandra",
@@ -108,7 +106,8 @@
       ],
       "image": "./assets/speakers_images/Dr. Geetanjali Chattopadhyay.png",
       "link": "https://www.mnit.ac.in/dept_math/profile?fid=RqqO",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Sumita Dahiya",
@@ -128,7 +127,8 @@
       ],
       "image": "./assets/speakers_images/Dr Jyotiska Datta.jpg",
       "link": "https://www.cuo.ac.in/PHOTO_GALLARY/StaffCV/CV_Jyotiska_Datta_Mathematics.pdf",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
 
     {
@@ -177,7 +177,8 @@
       ],
       "image": "./assets/speakers_images/Dr. Sukhendu Ghosh.jpg",
       "link": "https://research.iitj.ac.in/researcher/sukhendu-ghosh",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Bapan Ghosh",
@@ -205,7 +206,14 @@
       "image": "./assets/speakers_images/Prof. G D V Gowda.png",
       "link": "https://www.mahindrauniversity.edu.in/faculty/veerappa-gowda-g-d/",
       "speakerType": "Confirmed",
-      "hidden" :true
+      "hidden": true
+    },
+    {
+      "name": "Manish Gupta",
+      "affiliation": "Director, Kaushalya Skill University, Government of Gujarat",
+      "image": "./assets/speakers_images/Manish Gupta.jpeg",
+      "link": "https://kaushalyaskilluniversity.ac.in/directoracademics.php#:~:text=Gupta%20serves%20as%20the%20Director,KSU)%2C%20Government%20of%20Gujarat.",
+      "speakerType": "Confirmed"
     },
     {
       "name": "Vikas Gupta",
@@ -237,7 +245,8 @@
       ],
       "image": "./assets/speakers_images/Dr. Mahipal Jetta.jpg",
       "link": "https://www.mahindrauniversity.edu.in/faculty/mahipal-j/",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Brajesh Jha",
@@ -295,7 +304,7 @@
       "link": "https://departments.nitj.ac.in/dept/ma/Faculty/64b7664b70a199ae57d48c64",
       "speakerType": "Confirmed"
     },
- 
+
     {
       "name": "B.V. Rathish Kumar",
       "affiliation": "Professor, IIT Kanpur",
@@ -352,7 +361,7 @@
       "link": "https://faculty.iitmandi.ac.in/~nitu/",
       "speakerType": "Confirmed"
     },
-  
+
     {
       "name": "Lakshman Mahto",
       "affiliation": "BITS Mesra",
@@ -364,7 +373,8 @@
       ],
       "image": "./assets/speakers_images/Dr. Lakshman Mahto.png",
       "link": "https://bitmesra.ac.in/Show_profile/477474392F50466E4E4D614734612F566541375959673D3D",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Muslim Malik",
@@ -405,7 +415,8 @@
       ],
       "image": "./assets/speakers_images/Dr Indira Mishra.webp",
       "link": "https://iiitbhopal.ac.in/Media/Faculty/10036/Resume.pdf",
-      "speakerType": "Confirmed"
+      "speakerType": "Confirmed",
+      "hidden": true
     },
 
     {
@@ -423,7 +434,7 @@
       "link": "https://bhu.ac.in/Site/FacultyProfile/1_156?FA000891",
       "speakerType": "Confirmed"
     },
- 
+
     {
       "name": "Manil T Mohan",
       "affiliation": "IIT Roorkee",
@@ -443,20 +454,29 @@
     {
       "name": "Anushaya Mohapatra",
       "affiliation": "BITS Pilani Goa",
-      "researchInterInterests": [
-        "Dynamical Systems",
-        "Mathematical Biology"
-      ],
+      "researchInterInterests": ["Dynamical Systems", "Mathematical Biology"],
       "image": "./assets/speakers_images/Dr. Anushaya Mohapatra.webp",
       "link": "https://www.bits-pilani.ac.in/goa/anushaya-chittaranjan-mohapatra/",
       "speakerType": "Confirmed"
     },
+     {
+    "name": "Anuj Mubayi",
+    "affiliation": "Distinguished IBA Fellow",
+    "image": "./assets/speakers_images/Anuj Mubayi.jpg",
+    "link": "https://www.anujmubayi.com/",
+    "speakerType":"Tentative"
+  },
+    {
+    "name": "Anima Nagar",
+    "affiliation": "Professor, Department of Mathematics, IIT Delhi",
+    "image": "./assets/speakers_images/Anima Nagar.jpg",
+    "link": "https://maths.iitd.ac.in/profile/130",
+    "speakerType":"Confirmed"
+  },
     {
       "name": "A K Nandakumaran",
       "affiliation": "Chairman & Professor, IISc Bangalore",
-      "researchInterests": [
-        "Partial Differential Equations"
-      ],
+      "researchInterests": ["Partial Differential Equations"],
       "image": "./assets/speakers_images/Prof. A K Nandakumaran.jpg",
       "link": "https://math.iisc.ac.in/~nands/",
       "speakerType": "Tentative"
@@ -510,9 +530,7 @@
     {
       "name": "Ambuj Pandey",
       "affiliation": "Assistant Professor, IISER Bhopal",
-      "researchInterests": [
-        "Numerical Analysis And Scientific Computing"
-      ],
+      "researchInterests": ["Numerical Analysis And Scientific Computing"],
       "image": "./assets/speakers_images/Dr. Ambuj Pandey.jpg",
       "link": "https://maths.iiserb.ac.in/faculty_details2/MTUwNg==",
       "speakerType": "Confirmed"
@@ -528,18 +546,17 @@
       ],
       "image": "./assets/speakers_images/Dr Prashant K Pandey.jpg",
       "link": "https://researchid.co/spandey",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Kamna Porwal",
       "affiliation": "Associate Professor, IIT Delhi",
-      "researchInterests": [
-        "Numerical Analysis",
-        "Finite Element method"
-      ],
+      "researchInterests": ["Numerical Analysis", "Finite Element method"],
       "image": "./assets/speakers_images/Dr. Kamna Porwal.jpeg",
       "link": "https://iitd.irins.org/profile/60766#personal_information_panel",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "S D Purohit",
@@ -554,7 +571,8 @@
       ],
       "image": "./assets/speakers_images/Dr S D Purohit.jpg",
       "link": "https://rtu.ac.in/index/viewdata.php?page=Dr-Sunil-Dutt-Purohit-Profile157",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
 
     {
@@ -596,18 +614,17 @@
       "image": "./assets/speakers_images/Dr Rajesh.webp",
       "link": "https://www.bits-pilani.ac.in/pilani/rajeshkr/",
       "speakerType": "Tentative",
-      "hidden":true
+      "hidden": true
     },
 
     {
       "name": "Akmal Raza",
       "affiliation": "BIT Mesra",
-      "researchInterInterests": [
-        "Application of Wavelets"
-      ],
+      "researchInterInterests": ["Application of Wavelets"],
       "image": "./assets/speakers_images/Dr. Akmal Raza.jpg",
       "link": "https://bitmesra.ac.in/Show_profile/73564E523350412B47414A76633863746172643178673D3D",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Manoj Sahni",
@@ -646,7 +663,8 @@
       ],
       "image": "./assets/speakers_images/Dr. Chirala Satyanarayana.webp",
       "link": "https://www.mahindrauniversity.edu.in/faculty/chirala-satyanarayana/",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Navneet Sharma",
@@ -661,7 +679,7 @@
       "link": "https://gsv.ac.in/faculties/navneet-lal-sharma/",
       "speakerType": "Confirmed"
     },
- 
+
     {
       "name": "Anurag Shukla",
       "affiliation": "Assistant Professor, REC Kannauj",
@@ -679,10 +697,7 @@
     {
       "name": "Sanjeev Singh",
       "affiliation": "Associate Professor, IIT Indore",
-      "researchInterests": [
-        "Special Functions",
-        "Geometric Function Theory"
-      ],
+      "researchInterests": ["Special Functions", "Geometric Function Theory"],
       "image": "./assets/speakers_images/Dr Sanjeev Singh.jpg",
       "link": "https://people.iiti.ac.in/~snjvsngh/",
       "speakerType": "Confirmed"
@@ -690,27 +705,22 @@
     {
       "name": "Alpesh Singh",
       "affiliation": "Assistant Professor, Allahabad University",
-      "researchInterests": [
-        "Mesh Free Methods",
-        "Computational Finance"
-      ],
+      "researchInterests": ["Mesh Free Methods", "Computational Finance"],
       "image": "./assets/speakers_images/Dr Alpesh Singh.jpg",
       "link": "https://allduniv.ac.in/faculties/mathematics",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Ankur Singh",
       "affiliation": "PDEU Gandhinagar",
-      "researchInterInterests": [
-        "Algebraic Coding Theory",
-        "Number Theory"
-      ],
+      "researchInterInterests": ["Algebraic Coding Theory", "Number Theory"],
       "image": "./assets/speakers_images/Dr. Ankur Singh.jpg",
       "link": "https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=ankur.singh",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
- 
-   
+
     {
       "name": "Akhil Srivastav",
       "affiliation": "Researcher, KU Leuven",
@@ -724,7 +734,7 @@
       "link": "https://www.kuleuven.be/wieiswie/en/person/00178555",
       "speakerType": "Confirmed"
     },
-    
+
     {
       "name": "Parshant Kumar Srivastava",
       "affiliation": "Associate Professor, IIT Patna",
@@ -761,7 +771,8 @@
       ],
       "image": "./assets/speakers_images/Dr. Sudhakar.jpg",
       "link": "https://iitram.ac.in/empdetail/2018240",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "S Sundar",
@@ -802,7 +813,8 @@
       "researchInterests": [],
       "image": "./assets/speakers_images/Prof Arun K Tripathy.jpeg",
       "link": "#",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Jagmohan Tyagi",
@@ -826,7 +838,8 @@
       ],
       "image": "./assets/speakers_images/Dr. Umeshkanta.png",
       "link": "https://www.bennett.edu.in/faculties/dr-thounaojam-umeshkanta-singh/",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Ranjit Upadhyay",
@@ -872,7 +885,8 @@
       ],
       "image": "./assets/speakers_images/Dr. Vishwanathan.jpeg",
       "link": "https://web.iitd.ac.in/~viswa/",
-      "speakerType": "Tentative"
+      "speakerType": "Tentative",
+      "hidden": true
     },
     {
       "name": "Sanjay Yadav",
@@ -895,7 +909,7 @@
       "image": "./assets/speakers_images/Dr Jai Prakash Yadav.jpeg",
       "link": "#",
       "speakerType": "Tentative",
-      "hidden":true
+      "hidden": true
     }
   ]
 }
