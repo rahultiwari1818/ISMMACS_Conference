@@ -1,0 +1,33 @@
+{
+    "photos":[
+        {
+            "image":"./assets/campus/1.jpg",
+            "text":""
+        },
+        {
+
+            "image":"./assets/campus/2.JPG",
+            "text":""
+        },
+        {
+
+            "image":"./assets/campus/3.jpg",
+            "text":""
+        },
+        {
+
+            "image":"./assets/campus/4.jpg",
+            "text":""
+        },
+        {
+
+            "image":"./assets/campus/5.jpg",
+            "text":""
+        },
+        {
+
+            "image":"./assets/campus/6.jpg",
+            "text":""
+        }
+    ]
+}

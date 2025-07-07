@@ -1008,3 +1008,37 @@ table.custom-table tr:hover {
   color: #856404;
   font-size: 1.02rem;
 }
+
+
+/* ------------------------------------------------------------------------- Vibrant campus -------------------------------------------------- */
+
+#vibrant-campus .campus-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+#vibrant-campus .campus-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#vibrant-campus .campus-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+#vibrant-campus .campus-card:hover .campus-img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 576px) {
+  #vibrant-campus .campus-card {
+    border-radius: 8px;
+  }
+}

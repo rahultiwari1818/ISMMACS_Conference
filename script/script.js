@@ -449,6 +449,31 @@ $(document).ready(function () {
 });
 
 
+// ----------------------------------------------------------- Vibrant Campus --------------------------------------------------------------------------------
+
+  $.getJSON("./data/vibrant_campus.json", function (data) {
+    let galleryHTML = `<div class="row g-3">`;
+    data.photos.forEach(function (item) {
+      galleryHTML += `
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="campus-card shadow-sm">
+            <img 
+              src="${item.image}" 
+              alt="Campus Image" 
+              class="img-fluid campus-img" 
+              loading="lazy"
+            >
+          </div>
+        </div>
+      `;
+    });
+    galleryHTML += `</div>`;
+    $("#vibrant-campus").html(galleryHTML);
+  });
+
+
+
+
 });
 
 function toggleMore(button, index) {
