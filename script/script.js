@@ -197,7 +197,7 @@ $(document).ready(function () {
     data.speakers.forEach((speaker, index) => {
       const tagClass =
         speaker.speakerType === "fixed" ? "tag-fixed" : "tag-tentative";
-        if(speaker?.hidden) return;
+      if (speaker?.hidden) return;
 
       const interests = speaker.researchInterests || [];
       // const interestsPreview = interests
@@ -246,18 +246,21 @@ $(document).ready(function () {
 
   //   --------------------------------------- Registration Notes Data fetch ------------------------------------------------------------
 
-  $.getJSON("./data/registration_fees_and_notes.json", function (data) {
-    function renderDetailedFeeTable(targetId, feeData) {
-      let html = "";
+$.getJSON("./data/registration_fees_and_notes.json", function (data) {
+  function renderDetailedFeeTable(targetId, feeData) {
+    let html = "";
 
-      // Loop over INDIAN and NRI separately
-      Object.keys(feeData).forEach((nationality) => {
-        html += `<h5>${nationality}</h5>`;
+    Object.keys(feeData).forEach((nationality) => {
+      html += `<h5 class="mt-4">${nationality}</h5>`;
 
-        const membershipGroups = feeData[nationality];
+      const membershipGroups = feeData[nationality];
 
+      // Check if nested membership exists
+      const hasMembershipGroups = typeof membershipGroups === "object" && !Array.isArray(membershipGroups) && Object.values(membershipGroups)[0] instanceof Object;
+
+      if (hasMembershipGroups && Object.keys(membershipGroups)[0] !== "Students (UG/ PG/ Research Scholars)") {
         Object.keys(membershipGroups).forEach((membershipType) => {
-          html += `<h6>${membershipType}</h6>`;
+          html += `<h6 class="mt-2">${membershipType}</h6>`;
           html += `<table class="custom-table"><thead><tr><th>Category</th><th>Fee</th></tr></thead><tbody>`;
 
           const categoryFees = membershipGroups[membershipType];
@@ -267,38 +270,41 @@ $(document).ready(function () {
 
           html += `</tbody></table>`;
         });
-      });
-
-      $(targetId).html(html);
-    }
-
-    renderDetailedFeeTable(
-      "#conferenceTable",
-      data["RegistrationFee (Including 18% GST)"]["Conference"]
-    );
-    renderDetailedFeeTable(
-      "#workshopConfTable",
-      data["RegistrationFee (Including 18% GST)"]["Conference and Workshop"]
-    );
-
-    // Remove dau and simple notes logic if not needed, or keep if still valid
-    if (data["RegistrationFee (Including 18% GST)"]["dau Faculty/Students"]) {
-      $("#dauRate").text(
-        data["RegistrationFee (Including 18% GST)"]["dau Faculty/Students"]
-      );
-    }
-
-    if (data.Notes) {
-      data.Notes.forEach((note) => {
-        $("#notesList").append(`<li>${note}</li>`);
-      });
-    }
-
-    $(".toggle-btn").click(function () {
-      const target = $(this).data("target");
-      $(target).toggleClass("hidden");
+      } else {
+        // Direct categories (flat map)
+        html += `<table class="custom-table"><thead><tr><th>Category</th><th>Fee</th></tr></thead><tbody>`;
+        Object.keys(membershipGroups).forEach((category) => {
+          html += `<tr><td>${category}</td><td>${membershipGroups[category]}</td></tr>`;
+        });
+        html += `</tbody></table>`;
+      }
     });
+
+    $(targetId).html(html);
+  }
+
+  renderDetailedFeeTable(
+    "#conferenceTable",
+    data["RegistrationFee (Including 18% GST)"]["Conference"]
+  );
+
+  renderDetailedFeeTable(
+    "#workshopConfTable",
+    data["RegistrationFee (Including 18% GST)"]["Conference and Workshop"]
+  );
+
+  // Notes
+  if (data.Notes) {
+    data.Notes.forEach((note) => {
+      $("#notesList").append(`<li>${note}</li>`);
+    });
+  }
+
+  $(".toggle-btn").click(function () {
+    const target = $(this).data("target");
+    $(target).toggleClass("hidden");
   });
+});
 
   //   --------------------------------------------------- Sponsors Data Fetch -------------------------------------------------------------
 
@@ -343,16 +349,104 @@ $(document).ready(function () {
 
   // ---------------------------------------------------- Call for Abstract Form ---------------------------------------------------------------------------------
 
-  $("input[name='uploadType']").change(function () {
-    if (this.value === "text") {
-      $("#textContentDiv").removeClass("d-none");
-      $("#pdfContentDiv").addClass("d-none");
-      $("#abstractFile").val("");
-    } else if (this.value === "pdf") {
-      $("#pdfContentDiv").removeClass("d-none");
-      $("#textContentDiv").addClass("d-none");
-      $("#abstractContent").val("");
-    }
+  // $("input[name='uploadType']").change(function () {
+  //   if (this.value === "text") {
+  //     $("#textContentDiv").removeClass("d-none");
+  //     $("#pdfContentDiv").addClass("d-none");
+  //     $("#abstractFile").val("");
+  //   } else if (this.value === "pdf") {
+  //     $("#pdfContentDiv").removeClass("d-none");
+  //     $("#textContentDiv").addClass("d-none");
+  //     $("#abstractContent").val("");
+  //   }
+  // });
+
+  // $("#previewBtn").click(function () {
+  //   const fullName = $("#fullName").val().trim();
+  //   const title = $("#title").val();
+  //   const position = $("#position").val();
+  //   const affiliation = $("#affiliation").val().trim();
+  //   const abstractTitle = $("#abstractTitle").val().trim();
+  //   const coauthors = $("#coauthors").val().trim();
+  //   const uploadType = $("input[name='uploadType']:checked").val();
+  //   const content = $("#abstractContent").val().trim();
+  //   const file = $("#abstractFile")[0].files[0];
+
+  //   // Validation
+  //   if (
+  //     !fullName ||
+  //     !title ||
+  //     !position ||
+  //     !affiliation ||
+  //     !abstractTitle ||
+  //     !uploadType
+  //   ) {
+  //     showCustomAlert("Please fill all required fields.", "danger");
+  //     return;
+  //   }
+
+  //   if (uploadType === "text" && !content) {
+  //     showCustomAlert("Please provide abstract content text.", "danger");
+  //     return;
+  //   }
+  //   if (uploadType === "pdf" && !file) {
+  //     showCustomAlert("Please upload a PDF file.", "danger");
+  //     return;
+  //   }
+
+  //   let previewHtml = `
+  //     <p><strong>Full Name:</strong> ${fullName}</p>
+  //     <p><strong>Title:</strong> ${title}</p>
+  //     <p><strong>Position:</strong> ${position}</p>
+  //     <p><strong>Affiliation:</strong> ${affiliation}</p>
+  //     <p><strong>Abstract Title:</strong> ${abstractTitle}</p>
+  //     <p><strong>Co-authors:</strong> ${coauthors || "N/A"}</p>
+  //   `;
+
+  //   if (uploadType === "text") {
+  //     previewHtml += `<p><strong>Abstract Content:</strong><br>${content}</p>`;
+  //   } else if (uploadType === "pdf") {
+  //     previewHtml += `<p><strong>PDF File:</strong> ${file.name}</p>`;
+  //   }
+
+  //   $("#previewContent").html(previewHtml);
+  //   $("#previewModal").modal("show");
+  // });
+
+  // $("#confirmSubmit").click(function () {
+  //   $("#previewModal").modal("hide");
+  //   showCustomAlert(
+  //     "Your abstract has been successfully submitted!",
+  //     "success"
+  //   );
+  //   $("#abstractForm")[0].reset();
+  //   $("#textContentDiv, #pdfContentDiv").addClass("d-none");
+  // });
+
+  // function showCustomAlert(message, type = "success") {
+  //   $("#customAlert")
+  //     .removeClass("d-none alert-success alert-danger alert-warning")
+  //     .addClass("alert-" + type)
+  //     .html(message);
+  //   setTimeout(() => {
+  //     $("#customAlert").addClass("d-none");
+  //   }, 4000);
+  // }
+
+  // Add co-author
+  $("#addCoauthor").click(function () {
+    const newField = `
+    <div class="input-group mb-2">
+      <input type="text" name="coauthors[]" class="form-control" placeholder="Co-author name" />
+      <button type="button" class="btn btn-danger remove-coauthor">Remove</button>
+    </div>
+  `;
+    $("#coauthorsList").append(newField);
+  });
+
+  // Remove co-author
+  $(document).on("click", ".remove-coauthor", function () {
+    $(this).closest(".input-group").remove();
   });
 
   $("#previewBtn").click(function () {
@@ -361,60 +455,93 @@ $(document).ready(function () {
     const position = $("#position").val();
     const affiliation = $("#affiliation").val().trim();
     const abstractTitle = $("#abstractTitle").val().trim();
-    const coauthors = $("#coauthors").val().trim();
-    const uploadType = $("input[name='uploadType']:checked").val();
-    const content = $("#abstractContent").val().trim();
     const file = $("#abstractFile")[0].files[0];
 
-    // Validation
+    let coauthors = [];
+    $("input[name='coauthors[]']").each(function () {
+      const val = $(this).val().trim();
+      if (val !== "") {
+        coauthors.push(val);
+      }
+    });
+
     if (
       !fullName ||
       !title ||
       !position ||
       !affiliation ||
       !abstractTitle ||
-      !uploadType
+      !file
     ) {
-      showCustomAlert("Please fill all required fields.", "danger");
-      return;
-    }
-
-    if (uploadType === "text" && !content) {
-      showCustomAlert("Please provide abstract content text.", "danger");
-      return;
-    }
-    if (uploadType === "pdf" && !file) {
-      showCustomAlert("Please upload a PDF file.", "danger");
+      showCustomAlert(
+        "Please fill all required fields and upload the PDF.",
+        "danger"
+      );
       return;
     }
 
     let previewHtml = `
-      <p><strong>Full Name:</strong> ${fullName}</p>
-      <p><strong>Title:</strong> ${title}</p>
-      <p><strong>Position:</strong> ${position}</p>
-      <p><strong>Affiliation:</strong> ${affiliation}</p>
-      <p><strong>Abstract Title:</strong> ${abstractTitle}</p>
-      <p><strong>Co-authors:</strong> ${coauthors || "N/A"}</p>
-    `;
-
-    if (uploadType === "text") {
-      previewHtml += `<p><strong>Abstract Content:</strong><br>${content}</p>`;
-    } else if (uploadType === "pdf") {
-      previewHtml += `<p><strong>PDF File:</strong> ${file.name}</p>`;
-    }
+    <p><strong>Full Name:</strong> ${fullName}</p>
+    <p><strong>Title:</strong> ${title}</p>
+    <p><strong>Position:</strong> ${position}</p>
+    <p><strong>Affiliation:</strong> ${affiliation}</p>
+    <p><strong>Abstract Title:</strong> ${abstractTitle}</p>
+    <p><strong>Co-authors:</strong> ${
+      coauthors.length > 0 ? coauthors.join(", ") : "None"
+    }</p>
+    <p><strong>PDF File:</strong> ${file.name}</p>
+  `;
 
     $("#previewContent").html(previewHtml);
     $("#previewModal").modal("show");
   });
 
   $("#confirmSubmit").click(function () {
-    $("#previewModal").modal("hide");
-    showCustomAlert(
-      "Your abstract has been successfully submitted!",
-      "success"
-    );
-    $("#abstractForm")[0].reset();
-    $("#textContentDiv, #pdfContentDiv").addClass("d-none");
+    const formData = new FormData();
+    formData.append("fullName", $("#fullName").val().trim());
+    formData.append("title", $("#title").val());
+    formData.append("position", $("#position").val());
+    formData.append("affiliation", $("#affiliation").val().trim());
+    formData.append("abstractTitle", $("#abstractTitle").val().trim());
+
+    $("input[name='coauthors[]']").each(function () {
+      const val = $(this).val().trim();
+      if (val !== "") {
+        formData.append("coauthors", val);
+      }
+    });
+
+    const file = $("#abstractFile")[0].files[0];
+    if (file) {
+      formData.append("abstractFile", file);
+    }
+
+    // Submit to API
+    $.ajax({
+      url: "http://localhost:5000/api/abstract/submit",
+      type: "POST",
+      data: formData,
+      processData: false,
+      contentType: false,
+      success: function (response) {
+        $("#previewModal").modal("hide");
+        showCustomAlert(
+          "Your abstract has been successfully submitted!",
+          "success"
+        );
+        $("#abstractForm")[0].reset();
+        $("#coauthorsList").html(`
+        <div class="input-group mb-2">
+          <input type="text" name="coauthors[]" class="form-control" placeholder="Co-author name" />
+          <button type="button" class="btn btn-danger remove-coauthor d-none">Remove</button>
+        </div>
+      `);
+      },
+      error: function (xhr) {
+        $("#previewModal").modal("hide");
+        showCustomAlert("Submission failed. Please try again.", "danger");
+      },
+    });
   });
 
   function showCustomAlert(message, type = "success") {
@@ -427,53 +554,44 @@ $(document).ready(function () {
     }, 4000);
   }
 
-
-
   // ------------------------------------------------------------------------------------- Call for Symposium ----------------------------------------------
 
   $.getJSON("./data/call_for_symposium.json", function (data) {
-  let html = `
+    let html = `
     <h2 class="symposium-title mb-3">${data.title}</h2>
     <p class="symposium-intro mb-4">${data.intro}</p>
     <h5 class="symposium-subtitle mb-2">The proposal should include the following information:</h5>
     <ul class="symposium-list">
   `;
 
-  data.requirements.forEach(req => {
-    html += `<li><strong>${req.label}:</strong> ${req.description}</li>`;
+    data.requirements.forEach((req) => {
+      html += `<li><strong>${req.label}:</strong> ${req.description}</li>`;
+    });
+
+    html += `</ul><p class="symposium-note mt-3"><strong>Note:</strong> ${data.note}</p>`;
+
+    $("#call-symposium-section").html(html);
   });
 
-  html += `</ul><p class="symposium-note mt-3"><strong>Note:</strong> ${data.note}</p>`;
-
-  $("#call-symposium-section").html(html);
-});
-
-
-// ----------------------------------------------------------- Vibrant Campus --------------------------------------------------------------------------------
+  // ----------------------------------------------------------- Vibrant Campus --------------------------------------------------------------------------------
 
   $.getJSON("./data/vibrant_campus.json", function (data) {
-    let galleryHTML = `<div class="row g-3">`;
-    data.photos.forEach(function (item) {
+    let galleryHTML = `<div class="vibrant-gallery">`;
+
+    data.photos.forEach((photo) => {
       galleryHTML += `
-        <div class="col-6 col-md-4 col-lg-3">
-          <div class="campus-card shadow-sm">
-            <img 
-              src="${item.image}" 
-              alt="Campus Image" 
-              class="img-fluid campus-img" 
-              loading="lazy"
-            >
-          </div>
-        </div>
-      `;
+      <div class="vibrant-gallery-item">
+        <img loading="lazy" src="${photo.image}" alt="Campus Image">
+      </div>
+    `;
     });
+
     galleryHTML += `</div>`;
-    $("#vibrant-campus").html(galleryHTML);
+    $("#vibrant-campus").html(`
+    <h2 class="text-center mb-4">Vibrant Campus</h2>
+    ${galleryHTML}
+  `);
   });
-
-
-
-
 });
 
 function toggleMore(button, index) {

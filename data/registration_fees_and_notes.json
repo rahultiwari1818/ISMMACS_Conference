@@ -3,51 +3,48 @@
     "Category": [
       "Students (UG/ PG/ Research Scholars)",
       "Faculty/Post Doc",
-      "Industrialists"
+      "Professionals from Industry/ R&Ds"
     ],
     "Conference": {
-      "INDIAN": {
-        "NON-ISMMACS Member": {
-          "Students (UG/ PG/ Research Scholars)": "Rs 5900",
-          "Faculty/Post Doc": "Rs 8260",
-          "Industrialists": "Rs 11800"
+      "Indian Participants": {
+        "Non-ISMMACS Member": {
+          "Students (UG/ PG/ Research Scholars)": "Rs 6490",
+          "Faculty/Post Doc": "Rs 8850",
+          "Professionals from Industry/ R&Ds": "Rs 12390"
         },
         "ISMMACS Member": {
           "Students (UG/ PG/ Research Scholars)": "Rs 5310",
           "Faculty/Post Doc": "Rs 7670",
-          "Industrialists": "Rs 11210"
+          "Professionals from Industry/ R&Ds": "Rs 11210"
         }
       },
-      "NRI": {
-        "NON-ISMMACS Member": {
-          "Students (UG/ PG/ Research Scholars)": "150 USD",
-          "Faculty/Post Doc": "250 USD",
-          "Industrialists": "300 USD"
-        }
+      "Foreign Participants": {
+        "Students (UG/ PG/ Research Scholars)": "150 USD / Rs 11800",
+        "Faculty/Post Doc": "250 USD / Rs 20060",
+        "Professionals from Industry/ R&Ds": "300 USD / Rs 24780"
       }
     },
     "Conference and Workshop": {
-      "INDIAN": {
-        "NON-ISMMACS Member": {
-          "Students (UG/ PG/ Research Scholars)": "Rs 7080",
-          "Faculty/Post Doc": "Rs 9440",
-          "Industrialists": "Rs 12980"
+      "Indian Participants": {
+        "Non-ISMMACS Member": {
+          "Students (UG/ PG/ Research Scholars)": "Rs 7670",
+          "Faculty/Post Doc": "Rs 10030",
+          "Professionals from Industry/ R&Ds": "Rs 13570"
         },
         "ISMMACS Member": {
           "Students (UG/ PG/ Research Scholars)": "Rs 6490",
           "Faculty/Post Doc": "Rs 8850",
-          "Industrialists": "Rs 12390"
+          "Professionals from Industry/ R&Ds": "Rs 12390"
         }
       },
-      "NRI": {
-        "NON-ISMMACS Member": {
-          "Students (UG/ PG/ Research Scholars)": "200 USD",
-          "Faculty/Post Doc": "300 USD",
-          "Industrialists": "350 USD"
-        }
+      "Foreign Participants": {
+        "Students (UG/ PG/ Research Scholars)": "200 USD / Rs 16520",
+        "Faculty/Post Doc": "300 USD / Rs 24780",
+        "Professionals from Industry/ R&Ds": "350 USD / Rs 28320"
       }
     }
   },
+  
 
   "Notes": [
     "The regular registration fee includes shared accommodation in Hostels, tea, snacks, breakfast, lunch, dinner, and a certificate.",
@@ -55,3 +52,5 @@
     "Registration fees, once paid, will not be refunded."
   ]
 }
+
+
